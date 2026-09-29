@@ -1,0 +1,76 @@
+body {
+  background: #111;
+  color: #dbdbdb;
+  max-width: 1300px;
+  margin: 40px auto;
+  padding: 0 16px;
+  font-family: 'DM Serif Text', serif;
+}
+
+h1 {
+  text-align: center;
+  color: #66a0c2;
+}
+
+#meta {
+  text-align: center;
+  color: #aaa;
+}
+
+#relics {
+  white-space: pre-line;
+  line-height: 1.5;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.relic-card {
+  border: 1px solid #5488a6;
+  border-radius: 8px;
+  background: #1a1a1a;
+  padding: 16px;
+}
+
+.relic-card h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.relic-card p {
+  margin: 4px 0;
+  color: #a7a7a7;
+}
+
+.item-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.relic-icon {
+  width: 52px;
+  height: 52px;
+  display: block;
+}
+
+.relic-header {
+  display: flex;
+  margin-top: 3px;
+  margin-bottom: 14px
+}
+
+.value-high { color: rgb(255, 17, 116); }
+.value-mid { color: rgb(106, 163, 183); }
+.value-low { color: #749182; }
+
+.divider {
+  text-align: center;
+  color: #5488a6;
+  margin-bottom: 20px;
+  
+}
+
+.best-of-4-label {
+  color: #aaa;
+  font-size: 16px;
+}

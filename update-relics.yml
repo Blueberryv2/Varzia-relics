@@ -1,0 +1,29 @@
+name: Update Varzia Relics
+
+on:
+  schedule:
+    - cron: "0 0,6,12,18 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Run the relic check
+        run: node update-relics.js
+
+      - name: Save relics.json back to the repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add relics.json
+          git diff --staged --quiet || git commit -m "Update relics.json"
+          git push

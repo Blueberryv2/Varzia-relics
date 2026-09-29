@@ -59,22 +59,28 @@ async function main() {
   const r2 = await fetch("https://raw.githubusercontent.com/calamity-inc/warframe-public-export-plus/senpai/ExportRelics.json");
   const table = await r2.json();
 
-  const relicNames = relics.map(i => {
-    const key = i.uniqueName.replace("/StoreItems", "");
-    const entry = table[key];
-    return entry ? entry.era + " " + entry.category : null;
-  }).filter(n => n !== null);
+  const relicMatches = relics.map(i => {
+  const key = i.uniqueName.replace("/StoreItems", "");
+  const entry = table[key];
+  if (!entry) return null;
+  return {
+    full: entry.era + " " + entry.category,
+    icon: "https://cdn.warframestat.us/img/" + entry.icon.split("/").pop()
+  };
+  }).filter(m => m !== null);
 
-  const results = [];
-  for (const full of relicNames) {
+    const results = [];
+  for (const { full, icon } of relicMatches) {
     console.log("Checking " + full + "...");
     const [tier, name] = full.split(" ");
     const rr = await fetch("https://drops.warframestat.us/data/relics/" + tier + "/" + name + ".json");
     const data = await rr.json();
 
     const { items, relicValue } = await calcRelicValue(data.rewards.Radiant);
-    results.push({ relic: full, relicValue: Number(relicValue.toFixed(2)), items });
+    results.push({ relic: full, icon: icon, relicValue: Number(relicValue.toFixed(2)), items });
   }
+
+  results.sort((a, b) => b.relicValue - a.relicValue); // highest value first
 
   const output = {
     generatedAt: new Date().toISOString(),
