@@ -100,6 +100,58 @@
             card.appendChild(line);
           });
 
+                    // Squad buttons + overlay box
+          const squadRow = document.createElement("div");
+          squadRow.className = "squad-row";
+
+          const findBtn = document.createElement("button");
+          findBtn.className = "squad-btn find-squad-btn";
+          findBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M8 4H6a2 2
+          0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/><path d="M16 4h2a2 2 0 0 1 2 2v4"/><path d="M21 14H11"/><path d="m15 10-4 4 4 4"/></svg>` + " Find Squad";
+
+          const hostBtn = document.createElement("button");
+          hostBtn.className = "squad-btn host-squad-btn";
+          hostBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M8 4H6a2 2 0 0 0-2 2v14a2
+          2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/><path d="M16 4h2a2 2 0 0 1 2 2v4"/><path d="M21 14H11"/><path d="m15 10-4 4 4 4"/></svg>` + " Host Squad";
+
+          squadRow.appendChild(findBtn);
+          squadRow.appendChild(hostBtn);
+
+          const overlay = document.createElement("div");
+          overlay.className = "squad-overlay";
+          overlay.style.display = "none";
+
+          const textInput = document.createElement("input");
+          textInput.type = "text";
+          textInput.className = "squad-text";
+          textInput.readOnly = true;
+
+          const closeBtn = document.createElement("button");
+          closeBtn.className = "squad-close-btn";
+          closeBtn.textContent = "Close";
+
+          overlay.appendChild(textInput);
+          overlay.appendChild(closeBtn);
+
+          function openSquadBox(prefix) {
+            textInput.value = prefix + " [" + relic.relic + " Relic] Rad";
+            overlay.style.display = "flex";
+            textInput.focus();
+            textInput.select();
+          }
+
+          findBtn.addEventListener("click", () => openSquadBox("LF"));
+          hostBtn.addEventListener("click", () => openSquadBox("H"));
+          closeBtn.addEventListener("click", () => {
+            overlay.style.display = "none";
+          });
+
+          card.style.position = "relative";
+          card.appendChild(squadRow);
+          card.appendChild(overlay);
+
         out.appendChild(card);
         });
       } catch (e) {

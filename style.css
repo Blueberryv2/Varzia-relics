@@ -71,6 +71,76 @@ h1 {
 }
 
 .best-of-4-label {
-  color: #aaa;
+  color: #a7a7a7;
   font-size: 16px;
+}
+
+
+
+.squad-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.squad-btn {
+  padding: 6px;
+  cursor: pointer;
+  background-color: #222222;
+  color: #a7a7a7;
+  font-family: 'DM Serif Text', serif;
+  font-weight: bold;
+  border-radius: 6px;
+  width: 112px;
+  border: 0px;
+}
+
+.squad-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  gap: 8px;
+  padding: 16px;
+  background: #1a1a1a;
+  border-radius: 0 0 8px 8px;
+  display: flex;
+  align-items: center;
+}
+
+.squad-text {
+  flex: 1;
+  background-color: #222222;
+  border-radius: 0px;
+  color: #aaa;
+  border: 0px;
+  border-color: #66a0c2;
+  height:28px;
+  border-radius: 6px;
+}
+
+.squad-close-btn {
+  padding: 6px;
+  cursor: pointer;
+  background-color: #222222;
+  color: #a7a7a7;
+  font-family: 'DM Serif Text', serif;
+  font-weight: bold;
+  border-radius: 6px;
+  width: 112px;
+  border: 0px;
+
+}
+
+.squad-text:focus {
+  outline: 0px solid #66a0c2;
+  outline-offset: 1px;
+}
+
+.squad-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
 }
