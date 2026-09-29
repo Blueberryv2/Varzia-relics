@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-29T10:15:07.711Z",
+  "generatedAt": "2026-09-29T10:20:27.762Z",
   "varziaExpiry": "2026-10-01T18:00:00.000Z",
   "relics": [
     {
       "relic": "Axi A12",
       "icon": "https://cdn.warframestat.us/img/RelicAxiD.png",
-      "relicValue": 14.35,
+      "relicValue": 14.24,
       "items": [
         {
           "_id": "f1d3923651587359f9444f183330e4c2",
@@ -17,20 +17,20 @@
           "weight": 0.0007722224074321002
         },
         {
+          "_id": "2d15dadf5de7940a4aaafe084d7ea652",
+          "itemName": "Mirage Prime Chassis Blueprint",
+          "rarity": "Uncommon",
+          "chance": 16.67,
+          "price": 4,
+          "priceKnown": true,
+          "weight": 0.011583336111481504
+        },
+        {
           "_id": "17cd91823cbd56d98a99f7fe5ced5a64",
           "itemName": "Kogake Prime Boot",
           "rarity": "Uncommon",
           "chance": 16.67,
           "price": 5,
-          "priceKnown": true,
-          "weight": 0.011583336111481504
-        },
-        {
-          "_id": "2d15dadf5de7940a4aaafe084d7ea652",
-          "itemName": "Mirage Prime Chassis Blueprint",
-          "rarity": "Uncommon",
-          "chance": 16.67,
-          "price": 7,
           "priceKnown": true,
           "weight": 0.05019445648308649
         },
@@ -66,7 +66,7 @@
     {
       "relic": "Lith K5",
       "icon": "https://cdn.warframestat.us/img/RelicLithD.png",
-      "relicValue": 14.08,
+      "relicValue": 13.93,
       "items": [
         {
           "_id": "f1d3923651587359f9444f183330e4c2",
@@ -78,13 +78,22 @@
           "weight": 0.0007722224074321002
         },
         {
+          "_id": "2d15dadf5de7940a4aaafe084d7ea652",
+          "itemName": "Mirage Prime Chassis Blueprint",
+          "rarity": "Uncommon",
+          "chance": 16.67,
+          "price": 4,
+          "priceKnown": true,
+          "weight": 0.011583336111481504
+        },
+        {
           "_id": "4dbce8059562ea8d9435c7f68e9dc2e7",
           "itemName": "Helios Prime Carapace",
           "rarity": "Uncommon",
           "chance": 16.67,
           "price": 4,
           "priceKnown": true,
-          "weight": 0.011583336111481504
+          "weight": 0.05019445648308649
         },
         {
           "_id": "49433ec2a812bda4affea2bfbf0e5654",
@@ -93,16 +102,7 @@
           "chance": 20,
           "price": 7,
           "priceKnown": true,
-          "weight": 0.06859354536320005
-        },
-        {
-          "_id": "2d15dadf5de7940a4aaafe084d7ea652",
-          "itemName": "Mirage Prime Chassis Blueprint",
-          "rarity": "Uncommon",
-          "chance": 16.67,
-          "price": 7,
-          "priceKnown": true,
-          "weight": 0.15928812552068666
+          "weight": 0.17768721440079993
         },
         {
           "_id": "b5074b0f0ab49eb995a1b557e7945eba",
@@ -111,7 +111,7 @@
           "chance": 20,
           "price": 15,
           "priceKnown": true,
-          "weight": 0.4161544192008001
+          "weight": 0.41615441920079976
         },
         {
           "_id": "c6950a03ee5a5f6d7223c85608f4813a",
@@ -120,7 +120,7 @@
           "chance": 10,
           "price": 18,
           "priceKnown": true,
-          "weight": 0.3440084114004004
+          "weight": 0.34400841140040017
         }
       ]
     },
@@ -188,7 +188,7 @@
     {
       "relic": "Axi H5",
       "icon": "https://cdn.warframestat.us/img/RelicAxiD.png",
-      "relicValue": 12.73,
+      "relicValue": 13.57,
       "items": [
         {
           "_id": "d9f5d19082a2b4229a4bcc696099a096",
@@ -231,7 +231,7 @@
           "itemName": "Mirage Prime Systems Blueprint",
           "rarity": "Uncommon",
           "chance": 20,
-          "price": 12,
+          "price": 14,
           "priceKnown": true,
           "weight": 0.4161544192008001
         },
@@ -310,7 +310,7 @@
     {
       "relic": "Lith M7",
       "icon": "https://cdn.warframestat.us/img/RelicLithD.png",
-      "relicValue": 10.32,
+      "relicValue": 10.67,
       "items": [
         {
           "_id": "d9f5d19082a2b4229a4bcc696099a096",
@@ -362,7 +362,7 @@
           "itemName": "Mirage Prime Blueprint",
           "rarity": "Uncommon",
           "chance": 10,
-          "price": 21,
+          "price": 22,
           "priceKnown": true,
           "weight": 0.3440084114004004
         }
