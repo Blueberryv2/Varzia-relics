@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Varzia's Relics</title>
+</head>
+<body>
+  <h1>Varzia's Relics</h1>
+  <p id="meta">Loading...</p>
+  <div id="relics">Loading relic data...</div>
+
+  <script>
+    // Next update time: 12:00 UTC, once a day.
+    // If you change the cron schedule in update-relics.yml, change this hour to match.
+    const UPDATE_HOUR_UTC = 12;
+
+    function nextUpdateTime() {
+      const now = new Date();
+      const next = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), UPDATE_HOUR_UTC, 0, 0));
+      if (next <= now) next.setUTCDate(next.getUTCDate() + 1);
+      return next;
+    }
+
+    function formatCountdown(ms) {
+      const totalSeconds = Math.max(0, Math.floor(ms / 1000));
+      const h = Math.floor(totalSeconds / 3600);
+      const m = Math.floor((totalSeconds % 3600) / 60);
+      const s = totalSeconds % 60;
+      return h + "h " + m + "m " + s + "s";
+    }
+
+    function updateCountdown() {
+      const meta = document.getElementById("meta");
+      const next = nextUpdateTime();
+      const diff = next - new Date();
+      meta.textContent = "Updates daily at 12:00 UTC — next update in " + formatCountdown(diff);
+    }
+
+    async function loadRelics() {
+      const out = document.getElementById("relics");
+      try {
+        const r = await fetch("relics.json");
+        const data = await r.json();
+
+        const blocks = data.relics.map(relic => {
+          const lines = relic.items.map(x => {
+            const priceText = x.priceKnown ? x.price + "p" : "no online sellers";
+            return "  " + x.itemName + " - " + priceText;
+          });
+          return relic.relic + " relic - " + relic.relicValue + "p avg best of 4, Radiant\n" + lines.join("\n");
+        });
+
+        out.style.whiteSpace = "pre-line";
+        out.textContent = blocks.join("\n\n");
+      } catch (e) {
+        out.textContent = "Failed to load relic data: " + e;
+      }
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+    loadRelics();
+  </script>
+</body>
+</html>
