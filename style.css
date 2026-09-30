@@ -5,6 +5,12 @@ body {
   margin: 40px auto;
   padding: 0 16px;
   font-family: 'DM Serif Text', serif;
+  background-image: url("relicBackground.jpg");
+  background-size: 100% auto;
+  height: 1600px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
 }
 
 h1 {
