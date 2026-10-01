@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-30T12:04:09.584Z",
+  "generatedAt": "2026-10-01T04:39:00.336Z",
   "varziaExpiry": "2026-10-01T18:00:00.000Z",
   "relics": [
     {
-      "relic": "Lith K5",
-      "icon": "https://cdn.warframestat.us/img/RelicLithD.png",
-      "relicValue": 15.24,
+      "relic": "Axi A12",
+      "icon": "https://cdn.warframestat.us/img/RelicAxiD.png",
+      "relicValue": 17.26,
       "items": [
         {
           "_id": "f1d3923651587359f9444f183330e4c2",
@@ -17,13 +17,65 @@
           "weight": 0.0007722224074321002
         },
         {
+          "_id": "17cd91823cbd56d98a99f7fe5ced5a64",
+          "itemName": "Kogake Prime Boot",
+          "rarity": "Uncommon",
+          "chance": 16.67,
+          "price": 6,
+          "priceKnown": true,
+          "weight": 0.011583336111481504
+        },
+        {
+          "_id": "8cc7b9381061e155022945f394e32ab5",
+          "itemName": "Helios Prime Systems",
+          "rarity": "Uncommon",
+          "chance": 20,
+          "price": 8,
+          "priceKnown": true,
+          "weight": 0.06859354536320005
+        },
+        {
+          "_id": "79dd5294e67851c8fb0daf6b57fa4be5",
+          "itemName": "Banshee Prime Blueprint",
+          "rarity": "Uncommon",
+          "chance": 20,
+          "price": 8,
+          "priceKnown": true,
+          "weight": 0.20836101416320005
+        },
+        {
           "_id": "2d15dadf5de7940a4aaafe084d7ea652",
           "itemName": "Mirage Prime Chassis Blueprint",
           "rarity": "Uncommon",
           "chance": 16.67,
-          "price": 5,
+          "price": 8,
           "priceKnown": true,
-          "weight": 0.011583336111481504
+          "weight": 0.36708153055828674
+        },
+        {
+          "_id": "95d1c84ac9dadf1ecdbfdba6338ee271",
+          "itemName": "Akbolto Prime Receiver",
+          "rarity": "Uncommon",
+          "chance": 10,
+          "price": 35,
+          "priceKnown": true,
+          "weight": 0.3440084114004004
+        }
+      ]
+    },
+    {
+      "relic": "Lith K5",
+      "icon": "https://cdn.warframestat.us/img/RelicLithD.png",
+      "relicValue": 15.42,
+      "items": [
+        {
+          "_id": "f1d3923651587359f9444f183330e4c2",
+          "itemName": "Forma Blueprint",
+          "rarity": "Uncommon",
+          "chance": 16.67,
+          "price": 0,
+          "priceKnown": false,
+          "weight": 0.0007722224074321002
         },
         {
           "_id": "4dbce8059562ea8d9435c7f68e9dc2e7",
@@ -32,7 +84,7 @@
           "chance": 16.67,
           "price": 5,
           "priceKnown": true,
-          "weight": 0.05019445648308649
+          "weight": 0.011583336111481504
         },
         {
           "_id": "49433ec2a812bda4affea2bfbf0e5654",
@@ -41,32 +93,41 @@
           "chance": 20,
           "price": 7,
           "priceKnown": true,
-          "weight": 0.17768721440079993
+          "weight": 0.06859354536320005
         },
         {
-          "_id": "c6950a03ee5a5f6d7223c85608f4813a",
-          "itemName": "Kogake Prime Gauntlet",
+          "_id": "2d15dadf5de7940a4aaafe084d7ea652",
+          "itemName": "Mirage Prime Chassis Blueprint",
           "rarity": "Uncommon",
-          "chance": 10,
-          "price": 18,
+          "chance": 16.67,
+          "price": 8,
           "priceKnown": true,
-          "weight": 0.1695676090003999
+          "weight": 0.15928812552068666
         },
         {
           "_id": "b5074b0f0ab49eb995a1b557e7945eba",
           "itemName": "Banshee Prime Systems Blueprint",
           "rarity": "Uncommon",
           "chance": 20,
-          "price": 18,
+          "price": 17,
           "priceKnown": true,
-          "weight": 0.5905952216008
+          "weight": 0.4161544192008001
+        },
+        {
+          "_id": "c6950a03ee5a5f6d7223c85608f4813a",
+          "itemName": "Kogake Prime Gauntlet",
+          "rarity": "Uncommon",
+          "chance": 10,
+          "price": 19,
+          "priceKnown": true,
+          "weight": 0.3440084114004004
         }
       ]
     },
     {
       "relic": "Meso E5",
       "icon": "https://cdn.warframestat.us/img/RelicMesoD.png",
-      "relicValue": 15.2,
+      "relicValue": 14.86,
       "items": [
         {
           "_id": "f1d3923651587359f9444f183330e4c2",
@@ -118,68 +179,7 @@
           "itemName": "Euphona Prime Receiver",
           "rarity": "Uncommon",
           "chance": 10,
-          "price": 30,
-          "priceKnown": true,
-          "weight": 0.34400841140040017
-        }
-      ]
-    },
-    {
-      "relic": "Axi A12",
-      "icon": "https://cdn.warframestat.us/img/RelicAxiD.png",
-      "relicValue": 15.16,
-      "items": [
-        {
-          "_id": "f1d3923651587359f9444f183330e4c2",
-          "itemName": "Forma Blueprint",
-          "rarity": "Uncommon",
-          "chance": 16.67,
-          "price": 0,
-          "priceKnown": false,
-          "weight": 0.0007722224074321002
-        },
-        {
-          "_id": "2d15dadf5de7940a4aaafe084d7ea652",
-          "itemName": "Mirage Prime Chassis Blueprint",
-          "rarity": "Uncommon",
-          "chance": 16.67,
-          "price": 5,
-          "priceKnown": true,
-          "weight": 0.011583336111481504
-        },
-        {
-          "_id": "17cd91823cbd56d98a99f7fe5ced5a64",
-          "itemName": "Kogake Prime Boot",
-          "rarity": "Uncommon",
-          "chance": 16.67,
-          "price": 6,
-          "priceKnown": true,
-          "weight": 0.05019445648308649
-        },
-        {
-          "_id": "79dd5294e67851c8fb0daf6b57fa4be5",
-          "itemName": "Banshee Prime Blueprint",
-          "rarity": "Uncommon",
-          "chance": 20,
-          "price": 8,
-          "priceKnown": true,
-          "weight": 0.17768721440079993
-        },
-        {
-          "_id": "8cc7b9381061e155022945f394e32ab5",
-          "itemName": "Helios Prime Systems",
-          "rarity": "Uncommon",
-          "chance": 20,
-          "price": 9,
-          "priceKnown": true,
-          "weight": 0.41615441920079976
-        },
-        {
-          "_id": "95d1c84ac9dadf1ecdbfdba6338ee271",
-          "itemName": "Akbolto Prime Receiver",
-          "rarity": "Uncommon",
-          "chance": 10,
-          "price": 28,
+          "price": 29,
           "priceKnown": true,
           "weight": 0.34400841140040017
         }
@@ -188,7 +188,7 @@
     {
       "relic": "Axi H5",
       "icon": "https://cdn.warframestat.us/img/RelicAxiD.png",
-      "relicValue": 13.64,
+      "relicValue": 14.14,
       "items": [
         {
           "_id": "d9f5d19082a2b4229a4bcc696099a096",
@@ -204,25 +204,25 @@
           "itemName": "Akbolto Prime Blueprint",
           "rarity": "Uncommon",
           "chance": 16.67,
-          "price": 3,
+          "price": 2,
           "priceKnown": true,
           "weight": 0.016481882377832106
-        },
-        {
-          "_id": "25bd7be01b0dd39ffa97823b815129bf",
-          "itemName": "Banshee Prime Neuroptics Blueprint",
-          "rarity": "Uncommon",
-          "chance": 16.67,
-          "price": 4,
-          "priceKnown": true,
-          "weight": 0.06286722150428155
         },
         {
           "_id": "6adf79856d675bbfee10c762ddd536c1",
           "itemName": "Euphona Prime Blueprint",
           "rarity": "Uncommon",
           "chance": 16.67,
-          "price": 4,
+          "price": 3,
+          "priceKnown": true,
+          "weight": 0.06286722150428155
+        },
+        {
+          "_id": "25bd7be01b0dd39ffa97823b815129bf",
+          "itemName": "Banshee Prime Neuroptics Blueprint",
+          "rarity": "Uncommon",
+          "chance": 16.67,
+          "price": 5,
           "priceKnown": true,
           "weight": 0.15928812552068666
         },
@@ -231,7 +231,7 @@
           "itemName": "Mirage Prime Systems Blueprint",
           "rarity": "Uncommon",
           "chance": 20,
-          "price": 14,
+          "price": 15,
           "priceKnown": true,
           "weight": 0.4161544192008001
         },
@@ -247,9 +247,70 @@
       ]
     },
     {
+      "relic": "Neo B6",
+      "icon": "https://cdn.warframestat.us/img/RelicNeoD.png",
+      "relicValue": 13.3,
+      "items": [
+        {
+          "_id": "f1d3923651587359f9444f183330e4c2",
+          "itemName": "Forma Blueprint",
+          "rarity": "Uncommon",
+          "chance": 16.67,
+          "price": 0,
+          "priceKnown": false,
+          "weight": 0.0007722224074321002
+        },
+        {
+          "_id": "6adf79856d675bbfee10c762ddd536c1",
+          "itemName": "Euphona Prime Blueprint",
+          "rarity": "Uncommon",
+          "chance": 16.67,
+          "price": 3,
+          "priceKnown": true,
+          "weight": 0.011583336111481504
+        },
+        {
+          "_id": "cdbd616196cec4dd5b8ab083e9d2ad65",
+          "itemName": "Kogake Prime Blueprint",
+          "rarity": "Uncommon",
+          "chance": 20,
+          "price": 4,
+          "priceKnown": true,
+          "weight": 0.06859354536320005
+        },
+        {
+          "_id": "1c1bb56f169f1f2ecdc4e444527ebb25",
+          "itemName": "Akbolto Prime Link",
+          "rarity": "Uncommon",
+          "chance": 20,
+          "price": 4,
+          "priceKnown": true,
+          "weight": 0.20836101416320005
+        },
+        {
+          "_id": "fec3293bba3c483fc7fffd5b72e3615f",
+          "itemName": "Mirage Prime Neuroptics Blueprint",
+          "rarity": "Uncommon",
+          "chance": 16.67,
+          "price": 5,
+          "priceKnown": true,
+          "weight": 0.36708153055828674
+        },
+        {
+          "_id": "74510ebb517a02e82e47915ce1fb2f5f",
+          "itemName": "Banshee Prime Chassis Blueprint",
+          "rarity": "Uncommon",
+          "chance": 10,
+          "price": 30,
+          "priceKnown": true,
+          "weight": 0.3440084114004004
+        }
+      ]
+    },
+    {
       "relic": "Lith M7",
       "icon": "https://cdn.warframestat.us/img/RelicLithD.png",
-      "relicValue": 12.28,
+      "relicValue": 13.14,
       "items": [
         {
           "_id": "d9f5d19082a2b4229a4bcc696099a096",
@@ -265,7 +326,7 @@
           "itemName": "Akbolto Prime Blueprint",
           "rarity": "Uncommon",
           "chance": 16.67,
-          "price": 3,
+          "price": 2,
           "priceKnown": true,
           "weight": 0.016481882377832106
         },
@@ -283,7 +344,7 @@
           "itemName": "Banshee Prime Neuroptics Blueprint",
           "rarity": "Uncommon",
           "chance": 16.67,
-          "price": 4,
+          "price": 5,
           "priceKnown": true,
           "weight": 0.1861735084970816
         },
@@ -301,68 +362,7 @@
           "itemName": "Mirage Prime Blueprint",
           "rarity": "Uncommon",
           "chance": 10,
-          "price": 26,
-          "priceKnown": true,
-          "weight": 0.3440084114004004
-        }
-      ]
-    },
-    {
-      "relic": "Neo B6",
-      "icon": "https://cdn.warframestat.us/img/RelicNeoD.png",
-      "relicValue": 12.26,
-      "items": [
-        {
-          "_id": "f1d3923651587359f9444f183330e4c2",
-          "itemName": "Forma Blueprint",
-          "rarity": "Uncommon",
-          "chance": 16.67,
-          "price": 0,
-          "priceKnown": false,
-          "weight": 0.0007722224074321002
-        },
-        {
-          "_id": "cdbd616196cec4dd5b8ab083e9d2ad65",
-          "itemName": "Kogake Prime Blueprint",
-          "rarity": "Uncommon",
-          "chance": 20,
-          "price": 3,
-          "priceKnown": true,
-          "weight": 0.017309659970400005
-        },
-        {
-          "_id": "1c1bb56f169f1f2ecdc4e444527ebb25",
-          "itemName": "Akbolto Prime Link",
-          "rarity": "Uncommon",
-          "chance": 20,
-          "price": 4,
-          "priceKnown": true,
-          "weight": 0.08505472717039998
-        },
-        {
-          "_id": "6adf79856d675bbfee10c762ddd536c1",
-          "itemName": "Euphona Prime Blueprint",
-          "rarity": "Uncommon",
-          "chance": 16.67,
-          "price": 4,
-          "priceKnown": true,
-          "weight": 0.1861735084970816
-        },
-        {
-          "_id": "fec3293bba3c483fc7fffd5b72e3615f",
-          "itemName": "Mirage Prime Neuroptics Blueprint",
-          "rarity": "Uncommon",
-          "chance": 16.67,
-          "price": 5,
-          "priceKnown": true,
-          "weight": 0.36708153055828674
-        },
-        {
-          "_id": "74510ebb517a02e82e47915ce1fb2f5f",
-          "itemName": "Banshee Prime Chassis Blueprint",
-          "rarity": "Uncommon",
-          "chance": 10,
-          "price": 27,
+          "price": 28,
           "priceKnown": true,
           "weight": 0.3440084114004004
         }
