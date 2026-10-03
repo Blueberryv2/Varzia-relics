@@ -2,7 +2,7 @@
   "varzia": {
     "inventoryCheck": {
       "tier": "hourly",
-      "lastChecked": "null"
+      "lastChecked": null
     }
   },
   "newest": {
