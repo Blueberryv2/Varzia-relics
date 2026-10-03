@@ -26,6 +26,10 @@
   <div id="newest-relics">Loading newest relic data...</div>
   <div class="spacer"></div>
 
+  <h1>Update Log</h1>
+  <div class="divider"> ───────────────────────────────────────────── ✧ ───────────────────────────────────────────── </div>
+  <div id="update-log">Loading update log...</div>
+
   <script>
     function nextUpdateTime() {
       const updateHours = [0, 6, 12, 18];
@@ -279,11 +283,30 @@
       }
     }
 
+    async function loadUpdateLog() {
+      const out = document.getElementById("update-log");
+      try {
+        const r = await fetch("relic-pricing.json");
+        const table = await r.json();
+
+        const lines = Object.entries(table).map(([name, entry]) => {
+          const time = new Date(entry.lastChecked).toLocaleString();
+          return name + " was last price-checked at " + time;
+        });
+
+        out.style.whiteSpace = "pre-line";
+        out.textContent = lines.join("\n");
+      } catch (e) {
+        out.textContent = "Failed to load update log: " + e;
+      }
+    }
+
     updateCountdown();
     setInterval(updateCountdown, 1000);
     loadRelics();
     loadNewestRelics();
     loadRecommendations();
+    loadUpdateLog();
   </script>
 </body>
 </html>
