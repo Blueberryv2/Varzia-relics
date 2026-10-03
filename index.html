@@ -3,18 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <link rel="icon" href="RelicIcon2.png">
-  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Serif+Text:ital@0;1&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <title>Varzia's Relics</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <h1>Blueberry's Recommendations</h1>
+  <p id="meta">Top 3 relics right now</p>
+  <div class="divider"> ───────────────────────────────────────────── ✧ ───────────────────────────────────────────── </div>
+  <div id="recommendations">Loading recommendations...</div>
+  <div class="spacer"></div>
+
   <h1>Varzia's Relics</h1>
-  <p id="meta">Loading...</p>
   <div class="divider"> ───────────────────────────────────────────── ✧ ───────────────────────────────────────────── </div>
   <div id="relics">Loading relic data...</div>
+  <div class="spacer"></div>
+
+  <h1>Newest Prime Set Relics</h1>
+  <div class="divider"> ───────────────────────────────────────────── ✧ ───────────────────────────────────────────── </div>
+  <div id="newest-relics">Loading newest relic data...</div>
+  <div class="spacer"></div>
 
   <script>
-
     function nextUpdateTime() {
       const updateHours = [0, 6, 12, 18];
       const now = new Date();
@@ -40,129 +52,238 @@
       meta.textContent = "Updates every 6 hours 00:00, 06:00, 12:00, 18:00 UTC - next update in " + formatCountdown(diff);
     }
 
+    // Builds one relic card element from a relic object (same shape in
+    // varzia-relics.json and newest-relics.json). Used by every section
+    // that displays relic cards.
+    function createRelicCard(relic) {
+      const card = document.createElement("div");
+      card.className = "relic-card";
+      card.style.position = "relative";
+
+      const header = document.createElement("div");
+      header.className = "relic-header";
+
+      const tier = relic.relic.split(" ")[0];
+      const img = document.createElement("img");
+      img.src = relic.icon || ("Images/" + tier + "0.png");
+      img.alt = tier;
+      img.className = "relic-icon";
+      header.appendChild(img);
+
+      const textBox = document.createElement("div");
+
+      const title = document.createElement("h2");
+      const wikiLink = document.createElement("a");
+      wikiLink.textContent = relic.relic + " relic";
+      wikiLink.href = "https://wiki.warframe.com/w/" + encodeURIComponent(relic.relic.replace(/ /g, "_")) + "#Mission_Drop_Locations";
+      wikiLink.target = "_blank";
+      wikiLink.rel = "noopener noreferrer";
+      wikiLink.addEventListener("click", (e) => e.stopPropagation());
+
+      title.appendChild(wikiLink);
+
+      const subtitle = document.createElement("h2");
+      subtitle.className = "relic-value";
+
+      const valueSpan = document.createElement("span");
+      valueSpan.textContent = "[" + relic.relicValue + "p avg] ";
+      valueSpan.className =
+        relic.relicValue < 12 ? "value-low" :
+        relic.relicValue < 15 ? "value-mid" :
+        "value-high";
+
+      const labelSpan = document.createElement("span");
+      labelSpan.textContent = "Best of 4, Rad";
+      labelSpan.className = "best-of-4-label";
+
+      subtitle.appendChild(valueSpan);
+      subtitle.appendChild(labelSpan);
+
+      textBox.appendChild(title);
+      textBox.appendChild(subtitle);
+      header.appendChild(textBox);
+      card.appendChild(header);
+
+      const itemsWrapper = document.createElement("div");
+      itemsWrapper.className = "items-wrapper";
+      itemsWrapper.style.display = "none";
+
+      relic.items.forEach(x => {
+        const line = document.createElement("p");
+        line.className = "item-row";
+
+        const nameSpan = document.createElement("span");
+        nameSpan.textContent = x.itemName;
+
+        const priceSpan = document.createElement("span");
+        priceSpan.textContent = x.priceKnown ? x.price + "p" : "no online sellers";
+
+        line.appendChild(nameSpan);
+        line.appendChild(priceSpan);
+        itemsWrapper.appendChild(line);
+      });
+
+      card.appendChild(itemsWrapper);
+
+      card.style.cursor = "pointer";
+      card.addEventListener("click", () => {
+        const isHidden = itemsWrapper.style.display === "none";
+        itemsWrapper.style.display = isHidden ? "block" : "none";
+      });
+
+      const squadRow = document.createElement("div");
+      squadRow.className = "squad-row";
+
+      const findBtn = document.createElement("button");
+      findBtn.className = "squad-btn find-squad-btn";
+      findBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/><path d="M16 4h2a2 2 0 0 1 2 2v4"/><path d="M21 14H11"/><path d="m15 10-4 4 4 4"/></svg>` 
+      + " Find Squad";
+
+      const hostBtn = document.createElement("button");
+      hostBtn.className = "squad-btn host-squad-btn";
+      hostBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/><path d="M16 4h2a2 2 0 0 1 2 2v4"/><path d="M21 14H11"/><path d="m15 10-4 4 4 4"/></svg>` 
+      + " Host Squad";
+
+      squadRow.addEventListener("click", (e) => e.stopPropagation());
+
+      squadRow.appendChild(hostBtn);
+      squadRow.appendChild(findBtn);
+
+      const overlay = document.createElement("div");
+      overlay.className = "squad-overlay";
+      overlay.style.display = "none";
+
+      const textInput = document.createElement("input");
+      textInput.type = "text";
+      textInput.className = "squad-text";
+
+      const closeBtn = document.createElement("button");
+      closeBtn.className = "squad-close-btn";
+      closeBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x preview-icon"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>` 
+      + " Close";
+
+      const minusBtn = document.createElement("button");
+      minusBtn.className = "player-count-btn";
+      minusBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minus preview-icon"><path d="M5 12h14"/></svg>`;
+
+      const plusBtn = document.createElement("button");
+      plusBtn.className = "player-count-btn";
+      plusBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus preview-icon"><path d="M5 12h14"/><path d="M12 5v14"/></svg>`;
+
+      let playerCount = 0;
+
+      const copyBtn = document.createElement("button");
+      copyBtn.className = "squad-copy-btn";
+      copyBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/><path d="M16 4h2a2 2 0 0 1 2 2v4"/><path d="M21 14H11"/><path d="m15 10-4 4 4 4"/></svg>`;
+
+      copyBtn.addEventListener("click", async () => {
+        await navigator.clipboard.writeText(textInput.value);
+      });
+      closeBtn.addEventListener("click", (e) => e.stopPropagation());
+      minusBtn.addEventListener("click", (e) => e.stopPropagation());
+      plusBtn.addEventListener("click", (e) => e.stopPropagation());
+      copyBtn.addEventListener("click", (e) => e.stopPropagation());
+
+      overlay.appendChild(closeBtn);
+      overlay.appendChild(minusBtn);
+      overlay.appendChild(plusBtn);
+      overlay.appendChild(copyBtn);
+      overlay.appendChild(textInput);
+
+      function openSquadBox(prefix) {
+        playerCount = 1;
+
+        if (prefix === "H") {
+          textInput.value = prefix + " [" + relic.relic + " Relic] Rad 1/4";
+          minusBtn.style.display = "flex";
+          plusBtn.style.display = "flex";
+        } else {
+          textInput.value = prefix + " [" + relic.relic + " Relic] Rad";
+          minusBtn.style.display = "none";
+          plusBtn.style.display = "none";
+        }
+
+        overlay.style.display = "flex";
+      }
+
+      minusBtn.addEventListener("click", () => {
+        if (playerCount > 1) {
+          playerCount--;
+          textInput.value = textInput.value.replace(/\d\/4$/, playerCount + "/4");
+        }
+      });
+
+      plusBtn.addEventListener("click", () => {
+        if (playerCount < 3) {
+          playerCount++;
+          textInput.value = textInput.value.replace(/\d\/4$/, playerCount + "/4");
+        }
+      });
+
+      findBtn.addEventListener("click", () => openSquadBox("LF"));
+      hostBtn.addEventListener("click", () => openSquadBox("H"));
+      closeBtn.addEventListener("click", () => {
+        overlay.style.display = "none";
+      });
+
+      card.appendChild(squadRow);
+      card.appendChild(overlay);
+
+      return card;
+    }
+
     async function loadRelics() {
       const out = document.getElementById("relics");
       try {
-        const r = await fetch("relics.json");
+        const r = await fetch("varzia-relics.json");
         const data = await r.json();
-
         out.innerHTML = "";
-        data.relics.forEach(relic => {
-          const card = document.createElement("div");
-          card.className = "relic-card";
-
-          const header = document.createElement("div");
-          header.className = "relic-header";
-
-          const img = document.createElement("img");
-          img.src = relic.icon;
-          img.alt = relic.relic;
-          img.className = "relic-icon";
-          header.appendChild(img);
-
-          const textBox = document.createElement("div");
-
-          const title = document.createElement("h2");
-          title.textContent = relic.relic;
-
-          const subtitle = document.createElement("h2");
-          subtitle.className = "relic-value";
-          const valueSpan = document.createElement("span");
-          valueSpan.textContent = "[" + relic.relicValue + "p avg] ";
-          valueSpan.className =
-            relic.relicValue < 13 ? "value-low" :
-            relic.relicValue < 15 ? "value-mid" :
-            "value-high";
-
-          subtitle.appendChild(valueSpan);
-          const labelSpan = document.createElement("span");
-          labelSpan.textContent = "Best of 4, Radiant";
-          labelSpan.className = "best-of-4-label";
-          subtitle.appendChild(labelSpan);
-
-          textBox.appendChild(title);
-          textBox.appendChild(subtitle);
-          header.appendChild(textBox);
-
-          card.appendChild(header);
-
-            relic.items.forEach(x => {
-            const line = document.createElement("p");
-            line.className = "item-row";
-
-            const nameSpan = document.createElement("span");
-            nameSpan.textContent = x.itemName;
-
-            const priceSpan = document.createElement("span");
-            priceSpan.textContent = x.priceKnown ? x.price + "p" : "no online sellers";
-
-            line.appendChild(nameSpan);
-            line.appendChild(priceSpan);
-            card.appendChild(line);
-          });
-
-                    // Squad buttons + overlay box
-          const squadRow = document.createElement("div");
-          squadRow.className = "squad-row";
-
-          const findBtn = document.createElement("button");
-          findBtn.className = "squad-btn find-squad-btn";
-          findBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-          stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M8 4H6a2 2
-          0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/><path d="M16 4h2a2 2 0 0 1 2 2v4"/><path d="M21 14H11"/><path d="m15 10-4 4 4 4"/></svg>` + " Find Squad";
-
-          const hostBtn = document.createElement("button");
-          hostBtn.className = "squad-btn host-squad-btn";
-          hostBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-          stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M8 4H6a2 2 0 0 0-2 2v14a2
-          2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/><path d="M16 4h2a2 2 0 0 1 2 2v4"/><path d="M21 14H11"/><path d="m15 10-4 4 4 4"/></svg>` + " Host Squad";
-
-          squadRow.appendChild(findBtn);
-          squadRow.appendChild(hostBtn);
-
-          const overlay = document.createElement("div");
-          overlay.className = "squad-overlay";
-          overlay.style.display = "none";
-
-          const textInput = document.createElement("input");
-          textInput.type = "text";
-          textInput.className = "squad-text";
-          textInput.readOnly = true;
-
-          const closeBtn = document.createElement("button");
-          closeBtn.className = "squad-close-btn";
-          closeBtn.textContent = "Close";
-
-          overlay.appendChild(textInput);
-          overlay.appendChild(closeBtn);
-
-          function openSquadBox(prefix) {
-            textInput.value = prefix + " [" + relic.relic + " Relic] Rad";
-            overlay.style.display = "flex";
-            textInput.focus();
-            textInput.select();
-          }
-
-          findBtn.addEventListener("click", () => openSquadBox("LF"));
-          hostBtn.addEventListener("click", () => openSquadBox("H"));
-          closeBtn.addEventListener("click", () => {
-            overlay.style.display = "none";
-          });
-
-          card.style.position = "relative";
-          card.appendChild(squadRow);
-          card.appendChild(overlay);
-
-        out.appendChild(card);
-        });
+        data.relics.forEach(relic => out.appendChild(createRelicCard(relic)));
       } catch (e) {
         out.textContent = "Failed to load relic data: " + e;
+      }
+    }
+
+    async function loadNewestRelics() {
+      const out = document.getElementById("newest-relics");
+      try {
+        const r = await fetch("newest-relics.json");
+        const data = await r.json();
+        out.innerHTML = "";
+        data.relics.forEach(relic => out.appendChild(createRelicCard(relic)));
+      } catch (e) {
+        out.textContent = "Failed to load newest relic data: " + e;
+      }
+    }
+
+    // Reads both already-saved JSON files (no live fetching of its own),
+    // combines their relics, and shows the top 3 by relicValue.
+    async function loadRecommendations() {
+      const out = document.getElementById("recommendations");
+      try {
+        const [varziaRes, newestRes] = await Promise.all([
+          fetch("varzia-relics.json"),
+          fetch("newest-relics.json")
+        ]);
+        const varziaData = await varziaRes.json();
+        const newestData = await newestRes.json();
+
+        const combined = [...varziaData.relics, ...newestData.relics];
+        combined.sort((a, b) => b.relicValue - a.relicValue);
+        const top3 = combined.slice(0, 3);
+
+        out.innerHTML = "";
+        top3.forEach(relic => out.appendChild(createRelicCard(relic)));
+      } catch (e) {
+        out.textContent = "Failed to load recommendations: " + e;
       }
     }
 
     updateCountdown();
     setInterval(updateCountdown, 1000);
     loadRelics();
+    loadNewestRelics();
+    loadRecommendations();
   </script>
 </body>
 </html>
