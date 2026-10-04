@@ -1,8 +1,8 @@
 {
   "Lith B12": {
     "tier": "hourly",
-    "lastChecked": "2026-10-04T08:03:42.228Z",
-    "relicValue": 12.81,
+    "lastChecked": "2026-10-04T09:25:07.901Z",
+    "relicValue": 13.41,
     "items": [
       {
         "_id": "f1d3923651587359f9444f183330e4c2",
@@ -36,7 +36,7 @@
         "itemName": "Ivara Prime Blueprint",
         "rarity": "Uncommon",
         "chance": 20,
-        "price": 8,
+        "price": 9,
         "priceKnown": true,
         "weight": 0.20836101416320005
       },
@@ -45,7 +45,7 @@
         "itemName": "Aksomati Prime Receiver",
         "rarity": "Uncommon",
         "chance": 16.67,
-        "price": 8,
+        "price": 10,
         "priceKnown": true,
         "weight": 0.36708153055828674
       },
@@ -54,7 +54,7 @@
         "itemName": "Baza Prime Stock",
         "rarity": "Uncommon",
         "chance": 10,
-        "price": 23,
+        "price": 22,
         "priceKnown": true,
         "weight": 0.3440084114004004
       }
@@ -62,8 +62,8 @@
   },
   "Meso I3": {
     "tier": "hourly",
-    "lastChecked": "2026-10-04T08:03:43.638Z",
-    "relicValue": 11.12,
+    "lastChecked": "2026-10-04T09:25:08.962Z",
+    "relicValue": 12.13,
     "items": [
       {
         "_id": "f1d3923651587359f9444f183330e4c2",
@@ -88,7 +88,7 @@
         "itemName": "Baza Prime Blueprint",
         "rarity": "Uncommon",
         "chance": 20,
-        "price": 4,
+        "price": 8,
         "priceKnown": true,
         "weight": 0.06859354536320005
       },
@@ -97,7 +97,7 @@
         "itemName": "Aksomati Prime Blueprint",
         "rarity": "Uncommon",
         "chance": 16.67,
-        "price": 6,
+        "price": 8,
         "priceKnown": true,
         "weight": 0.15928812552068666
       },
@@ -106,7 +106,7 @@
         "itemName": "Protea Prime Systems Blueprint",
         "rarity": "Uncommon",
         "chance": 20,
-        "price": 8,
+        "price": 9,
         "priceKnown": true,
         "weight": 0.4161544192008001
       },
@@ -184,7 +184,7 @@
   },
   "Neo P11": {
     "tier": "hourly",
-    "lastChecked": "2026-10-04T08:03:44.999Z",
+    "lastChecked": "2026-10-04T09:25:09.919Z",
     "relicValue": 10.33,
     "items": [
       {
@@ -306,8 +306,8 @@
   },
   "Axi A23": {
     "tier": "hourly",
-    "lastChecked": "2026-10-04T08:03:45.898Z",
-    "relicValue": 11.83,
+    "lastChecked": "2026-10-04T09:25:10.991Z",
+    "relicValue": 12.47,
     "items": [
       {
         "_id": "f1d3923651587359f9444f183330e4c2",
@@ -319,35 +319,35 @@
         "weight": 0.0007722224074321002
       },
       {
-        "_id": "602d7efe24c7837696ea42c1ad294b98",
-        "itemName": "Protea Prime Neuroptics Blueprint",
-        "rarity": "Uncommon",
-        "chance": 20,
-        "price": 1,
-        "priceKnown": true,
-        "weight": 0.017309659970400005
-      },
-      {
-        "_id": "5b00ba6ba06a134d04e418354800fdd5",
-        "itemName": "Burston Prime Stock",
-        "rarity": "Uncommon",
-        "chance": 16.67,
-        "price": 1,
-        "priceKnown": true,
-        "weight": 0.06286722150428155
-      },
-      {
         "_id": "3e8719fda222b72b6f6fb71cb15c6e00",
         "itemName": "Burston Prime Barrel",
         "rarity": "Uncommon",
         "chance": 20,
         "price": 3,
         "priceKnown": true,
-        "weight": 0.20836101416320005
+        "weight": 0.017309659970400005
       },
       {
         "_id": "dbb7a638a0459f54038db09cd50e08dd",
         "itemName": "Velox Prime Receiver",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 4,
+        "priceKnown": true,
+        "weight": 0.06286722150428155
+      },
+      {
+        "_id": "602d7efe24c7837696ea42c1ad294b98",
+        "itemName": "Protea Prime Neuroptics Blueprint",
+        "rarity": "Uncommon",
+        "chance": 20,
+        "price": 5,
+        "priceKnown": true,
+        "weight": 0.20836101416320005
+      },
+      {
+        "_id": "5b00ba6ba06a134d04e418354800fdd5",
+        "itemName": "Burston Prime Stock",
         "rarity": "Uncommon",
         "chance": 16.67,
         "price": 5,
