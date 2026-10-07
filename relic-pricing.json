@@ -1,8 +1,8 @@
 {
   "Lith B12": {
     "tier": "hourly",
-    "lastChecked": "2026-10-07T18:33:12.373Z",
-    "relicValue": 13.41,
+    "lastChecked": "2026-10-07T23:28:42.963Z",
+    "relicValue": 13.19,
     "items": [
       {
         "_id": "f1d3923651587359f9444f183330e4c2",
@@ -32,22 +32,22 @@
         "weight": 0.06859354536320005
       },
       {
-        "_id": "5693ebd425aa46d291566f2c7a9a1b1c",
-        "itemName": "Ivara Prime Blueprint",
-        "rarity": "Uncommon",
-        "chance": 20,
-        "price": 6,
-        "priceKnown": true,
-        "weight": 0.20836101416320005
-      },
-      {
         "_id": "1f7ae63d533036df824ceb058bb96e0b",
         "itemName": "Aksomati Prime Receiver",
         "rarity": "Uncommon",
         "chance": 16.67,
-        "price": 10,
+        "price": 6,
         "priceKnown": true,
-        "weight": 0.36708153055828674
+        "weight": 0.15928812552068666
+      },
+      {
+        "_id": "5693ebd425aa46d291566f2c7a9a1b1c",
+        "itemName": "Ivara Prime Blueprint",
+        "rarity": "Uncommon",
+        "chance": 20,
+        "price": 9,
+        "priceKnown": true,
+        "weight": 0.4161544192008001
       },
       {
         "_id": "24439f7c0373fbf66a087a3c19222624",
@@ -61,9 +61,9 @@
     ]
   },
   "Meso I3": {
-    "tier": "hourly",
-    "lastChecked": "2026-10-07T18:33:13.146Z",
-    "relicValue": 11.59,
+    "tier": "daily",
+    "lastChecked": "2026-10-07T23:28:43.923Z",
+    "relicValue": 9.45,
     "items": [
       {
         "_id": "f1d3923651587359f9444f183330e4c2",
@@ -93,20 +93,20 @@
         "weight": 0.05019445648308649
       },
       {
+        "_id": "232cc9e7d8ce7495964f069582d3e7fa",
+        "itemName": "Baza Prime Blueprint",
+        "rarity": "Uncommon",
+        "chance": 20,
+        "price": 6,
+        "priceKnown": true,
+        "weight": 0.17768721440079993
+      },
+      {
         "_id": "801b2fc45233f4a426db1ae4f6697548",
         "itemName": "Protea Prime Systems Blueprint",
         "rarity": "Uncommon",
         "chance": 20,
         "price": 8,
-        "priceKnown": true,
-        "weight": 0.17768721440079993
-      },
-      {
-        "_id": "232cc9e7d8ce7495964f069582d3e7fa",
-        "itemName": "Baza Prime Blueprint",
-        "rarity": "Uncommon",
-        "chance": 20,
-        "price": 9,
         "priceKnown": true,
         "weight": 0.41615441920079976
       },
@@ -115,7 +115,7 @@
         "itemName": "Ivara Prime Chassis Blueprint",
         "rarity": "Uncommon",
         "chance": 10,
-        "price": 18,
+        "price": 14,
         "priceKnown": true,
         "weight": 0.34400841140040017
       }
@@ -183,9 +183,9 @@
     ]
   },
   "Neo P11": {
-    "tier": "hourly",
-    "lastChecked": "2026-10-07T18:33:13.941Z",
-    "relicValue": 11.58,
+    "tier": "daily",
+    "lastChecked": "2026-10-07T23:28:45.198Z",
+    "relicValue": 9.95,
     "items": [
       {
         "_id": "f1d3923651587359f9444f183330e4c2",
@@ -197,29 +197,29 @@
         "weight": 0.0007722224074321002
       },
       {
+        "_id": "98b23d357d7a99755cc011c34bb60482",
+        "itemName": "Burston Prime Receiver",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 2,
+        "priceKnown": true,
+        "weight": 0.011583336111481504
+      },
+      {
         "_id": "2f6b636a17276cb64d25a298d91e4c8c",
         "itemName": "Braton Prime Receiver",
         "rarity": "Uncommon",
         "chance": 20,
         "price": 3,
         "priceKnown": true,
-        "weight": 0.017309659970400005
-      },
-      {
-        "_id": "98b23d357d7a99755cc011c34bb60482",
-        "itemName": "Burston Prime Receiver",
-        "rarity": "Uncommon",
-        "chance": 16.67,
-        "price": 3,
-        "priceKnown": true,
-        "weight": 0.06286722150428155
+        "weight": 0.06859354536320005
       },
       {
         "_id": "933310febadd3bc9c05b9ab6325833e8",
         "itemName": "Okina Prime Blade",
         "rarity": "Uncommon",
         "chance": 16.67,
-        "price": 7,
+        "price": 9,
         "priceKnown": true,
         "weight": 0.15928812552068666
       },
@@ -228,7 +228,7 @@
         "itemName": "Aksomati Prime Barrel",
         "rarity": "Uncommon",
         "chance": 20,
-        "price": 13,
+        "price": 10,
         "priceKnown": true,
         "weight": 0.4161544192008001
       },
@@ -237,7 +237,7 @@
         "itemName": "Protea Prime Chassis Blueprint",
         "rarity": "Uncommon",
         "chance": 10,
-        "price": 14,
+        "price": 12,
         "priceKnown": true,
         "weight": 0.3440084114004004
       }
@@ -305,9 +305,9 @@
     ]
   },
   "Axi A23": {
-    "tier": "hourly",
-    "lastChecked": "2026-10-07T18:33:14.718Z",
-    "relicValue": 10.88,
+    "tier": "daily",
+    "lastChecked": "2026-10-07T23:28:46.321Z",
+    "relicValue": 9.87,
     "items": [
       {
         "_id": "f1d3923651587359f9444f183330e4c2",
@@ -323,7 +323,7 @@
         "itemName": "Protea Prime Neuroptics Blueprint",
         "rarity": "Uncommon",
         "chance": 20,
-        "price": 3,
+        "price": 4,
         "priceKnown": true,
         "weight": 0.017309659970400005
       },
@@ -337,8 +337,8 @@
         "weight": 0.08505472717039998
       },
       {
-        "_id": "dbb7a638a0459f54038db09cd50e08dd",
-        "itemName": "Velox Prime Receiver",
+        "_id": "5b00ba6ba06a134d04e418354800fdd5",
+        "itemName": "Burston Prime Stock",
         "rarity": "Uncommon",
         "chance": 16.67,
         "price": 4,
@@ -346,8 +346,8 @@
         "weight": 0.1861735084970816
       },
       {
-        "_id": "5b00ba6ba06a134d04e418354800fdd5",
-        "itemName": "Burston Prime Stock",
+        "_id": "dbb7a638a0459f54038db09cd50e08dd",
+        "itemName": "Velox Prime Receiver",
         "rarity": "Uncommon",
         "chance": 16.67,
         "price": 5,
@@ -359,7 +359,7 @@
         "itemName": "Aksomati Prime Link",
         "rarity": "Uncommon",
         "chance": 10,
-        "price": 23,
+        "price": 20,
         "priceKnown": true,
         "weight": 0.3440084114004004
       }
