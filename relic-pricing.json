@@ -62,8 +62,8 @@
   },
   "Meso I3": {
     "tier": "hourly",
-    "lastChecked": "2026-10-09T23:04:08.458Z",
-    "relicValue": 10.27,
+    "lastChecked": "2026-10-10T04:43:12.927Z",
+    "relicValue": 10.57,
     "items": [
       {
         "_id": "f1d3923651587359f9444f183330e4c2",
@@ -75,20 +75,20 @@
         "weight": 0.0007722224074321002
       },
       {
-        "_id": "e61312444582286971e7fa69d81c474f",
-        "itemName": "Burston Prime Blueprint",
-        "rarity": "Uncommon",
-        "chance": 16.67,
-        "price": 1,
-        "priceKnown": true,
-        "weight": 0.011583336111481504
-      },
-      {
         "_id": "9c3609c4af5b1b8ec3e802e140b1a803",
         "itemName": "Aksomati Prime Blueprint",
         "rarity": "Uncommon",
         "chance": 16.67,
-        "price": 5,
+        "price": 3,
+        "priceKnown": true,
+        "weight": 0.011583336111481504
+      },
+      {
+        "_id": "e61312444582286971e7fa69d81c474f",
+        "itemName": "Burston Prime Blueprint",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 3,
         "priceKnown": true,
         "weight": 0.05019445648308649
       },
@@ -97,7 +97,7 @@
         "itemName": "Baza Prime Blueprint",
         "rarity": "Uncommon",
         "chance": 20,
-        "price": 7,
+        "price": 6,
         "priceKnown": true,
         "weight": 0.17768721440079993
       },
@@ -106,7 +106,7 @@
         "itemName": "Protea Prime Systems Blueprint",
         "rarity": "Uncommon",
         "chance": 20,
-        "price": 7,
+        "price": 10,
         "priceKnown": true,
         "weight": 0.41615441920079976
       },
@@ -115,7 +115,7 @@
         "itemName": "Ivara Prime Chassis Blueprint",
         "rarity": "Uncommon",
         "chance": 10,
-        "price": 17,
+        "price": 15,
         "priceKnown": true,
         "weight": 0.34400841140040017
       }
@@ -183,9 +183,9 @@
     ]
   },
   "Neo P11": {
-    "tier": "daily",
-    "lastChecked": "2026-10-08T23:40:05.035Z",
-    "relicValue": 9.28,
+    "tier": "hourly",
+    "lastChecked": "2026-10-10T04:43:14.396Z",
+    "relicValue": 11.6,
     "items": [
       {
         "_id": "f1d3923651587359f9444f183330e4c2",
@@ -219,7 +219,7 @@
         "itemName": "Okina Prime Blade",
         "rarity": "Uncommon",
         "chance": 16.67,
-        "price": 6,
+        "price": 8,
         "priceKnown": true,
         "weight": 0.15928812552068666
       },
@@ -228,7 +228,7 @@
         "itemName": "Aksomati Prime Barrel",
         "rarity": "Uncommon",
         "chance": 20,
-        "price": 10,
+        "price": 9,
         "priceKnown": true,
         "weight": 0.4161544192008001
       },
@@ -237,7 +237,7 @@
         "itemName": "Protea Prime Chassis Blueprint",
         "rarity": "Uncommon",
         "chance": 10,
-        "price": 11,
+        "price": 18,
         "priceKnown": true,
         "weight": 0.3440084114004004
       }
@@ -306,8 +306,8 @@
   },
   "Axi A23": {
     "tier": "hourly",
-    "lastChecked": "2026-10-09T23:04:10.087Z",
-    "relicValue": 11.97,
+    "lastChecked": "2026-10-10T04:43:15.869Z",
+    "relicValue": 13,
     "items": [
       {
         "_id": "f1d3923651587359f9444f183330e4c2",
@@ -319,22 +319,22 @@
         "weight": 0.0007722224074321002
       },
       {
-        "_id": "602d7efe24c7837696ea42c1ad294b98",
-        "itemName": "Protea Prime Neuroptics Blueprint",
-        "rarity": "Uncommon",
-        "chance": 20,
-        "price": 3,
-        "priceKnown": true,
-        "weight": 0.017309659970400005
-      },
-      {
         "_id": "5b00ba6ba06a134d04e418354800fdd5",
         "itemName": "Burston Prime Stock",
         "rarity": "Uncommon",
         "chance": 16.67,
+        "price": 3,
+        "priceKnown": true,
+        "weight": 0.011583336111481504
+      },
+      {
+        "_id": "602d7efe24c7837696ea42c1ad294b98",
+        "itemName": "Protea Prime Neuroptics Blueprint",
+        "rarity": "Uncommon",
+        "chance": 20,
         "price": 4,
         "priceKnown": true,
-        "weight": 0.06286722150428155
+        "weight": 0.06859354536320005
       },
       {
         "_id": "dbb7a638a0459f54038db09cd50e08dd",
@@ -359,7 +359,7 @@
         "itemName": "Aksomati Prime Link",
         "rarity": "Uncommon",
         "chance": 10,
-        "price": 26,
+        "price": 29,
         "priceKnown": true,
         "weight": 0.3440084114004004
       }
