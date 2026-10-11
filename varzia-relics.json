@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-11T06:51:40.524Z",
+  "generatedAt": "2026-10-11T13:49:04.335Z",
   "relics": [
     {
       "relic": "Lith B12",
       "icon": "Images/Lith0.png",
-      "relicValue": 12.66,
+      "relicValue": 13.8,
       "items": [
         {
           "_id": "f1d3923651587359f9444f183330e4c2",
@@ -38,7 +38,7 @@
           "itemName": "Ivara Prime Blueprint",
           "rarity": "Uncommon",
           "chance": 20,
-          "price": 9,
+          "price": 8,
           "priceKnown": true,
           "weight": 0.20836101416320005
         },
@@ -47,7 +47,7 @@
           "itemName": "Aksomati Prime Receiver",
           "rarity": "Uncommon",
           "chance": 16.67,
-          "price": 10,
+          "price": 9,
           "priceKnown": true,
           "weight": 0.36708153055828674
         },
@@ -56,7 +56,7 @@
           "itemName": "Baza Prime Stock",
           "rarity": "Uncommon",
           "chance": 10,
-          "price": 20,
+          "price": 25,
           "priceKnown": true,
           "weight": 0.3440084114004004
         }
@@ -65,7 +65,7 @@
     {
       "relic": "Axi A23",
       "icon": "Images/Axi0.png",
-      "relicValue": 10.74,
+      "relicValue": 10.89,
       "items": [
         {
           "_id": "f1d3923651587359f9444f183330e4c2",
@@ -95,90 +95,29 @@
           "weight": 0.06859354536320005
         },
         {
-          "_id": "dbb7a638a0459f54038db09cd50e08dd",
-          "itemName": "Velox Prime Receiver",
-          "rarity": "Uncommon",
-          "chance": 16.67,
-          "price": 4,
-          "priceKnown": true,
-          "weight": 0.15928812552068666
-        },
-        {
           "_id": "3e8719fda222b72b6f6fb71cb15c6e00",
           "itemName": "Burston Prime Barrel",
           "rarity": "Uncommon",
           "chance": 20,
-          "price": 7,
+          "price": 4,
           "priceKnown": true,
-          "weight": 0.4161544192008001
+          "weight": 0.20836101416320005
+        },
+        {
+          "_id": "dbb7a638a0459f54038db09cd50e08dd",
+          "itemName": "Velox Prime Receiver",
+          "rarity": "Uncommon",
+          "chance": 16.67,
+          "price": 5,
+          "priceKnown": true,
+          "weight": 0.36708153055828674
         },
         {
           "_id": "c5d02f6d5af57ba8970cc06dab587b3a",
           "itemName": "Aksomati Prime Link",
           "rarity": "Uncommon",
           "chance": 10,
-          "price": 20,
-          "priceKnown": true,
-          "weight": 0.3440084114004004
-        }
-      ]
-    },
-    {
-      "relic": "Meso I3",
-      "icon": "Images/Meso0.png",
-      "relicValue": 10.59,
-      "items": [
-        {
-          "_id": "f1d3923651587359f9444f183330e4c2",
-          "itemName": "Forma Blueprint",
-          "rarity": "Uncommon",
-          "chance": 16.67,
-          "price": 0,
-          "priceKnown": false,
-          "weight": 0.0007722224074321002
-        },
-        {
-          "_id": "9c3609c4af5b1b8ec3e802e140b1a803",
-          "itemName": "Aksomati Prime Blueprint",
-          "rarity": "Uncommon",
-          "chance": 16.67,
-          "price": 4,
-          "priceKnown": true,
-          "weight": 0.011583336111481504
-        },
-        {
-          "_id": "232cc9e7d8ce7495964f069582d3e7fa",
-          "itemName": "Baza Prime Blueprint",
-          "rarity": "Uncommon",
-          "chance": 20,
-          "price": 6,
-          "priceKnown": true,
-          "weight": 0.06859354536320005
-        },
-        {
-          "_id": "e61312444582286971e7fa69d81c474f",
-          "itemName": "Burston Prime Blueprint",
-          "rarity": "Uncommon",
-          "chance": 16.67,
-          "price": 6,
-          "priceKnown": true,
-          "weight": 0.15928812552068666
-        },
-        {
-          "_id": "801b2fc45233f4a426db1ae4f6697548",
-          "itemName": "Protea Prime Systems Blueprint",
-          "rarity": "Uncommon",
-          "chance": 20,
-          "price": 8,
-          "priceKnown": true,
-          "weight": 0.4161544192008001
-        },
-        {
-          "_id": "7fa8859682c70c5cdbe90948b0eebc5c",
-          "itemName": "Ivara Prime Chassis Blueprint",
-          "rarity": "Uncommon",
-          "chance": 10,
-          "price": 17,
+          "price": 23,
           "priceKnown": true,
           "weight": 0.3440084114004004
         }
@@ -362,6 +301,67 @@
           "rarity": "Uncommon",
           "chance": 10,
           "price": 14,
+          "priceKnown": true,
+          "weight": 0.3440084114004004
+        }
+      ]
+    },
+    {
+      "relic": "Meso I3",
+      "icon": "Images/Meso0.png",
+      "relicValue": 8.07,
+      "items": [
+        {
+          "_id": "f1d3923651587359f9444f183330e4c2",
+          "itemName": "Forma Blueprint",
+          "rarity": "Uncommon",
+          "chance": 16.67,
+          "price": 0,
+          "priceKnown": false,
+          "weight": 0.0007722224074321002
+        },
+        {
+          "_id": "e61312444582286971e7fa69d81c474f",
+          "itemName": "Burston Prime Blueprint",
+          "rarity": "Uncommon",
+          "chance": 16.67,
+          "price": 3,
+          "priceKnown": true,
+          "weight": 0.011583336111481504
+        },
+        {
+          "_id": "232cc9e7d8ce7495964f069582d3e7fa",
+          "itemName": "Baza Prime Blueprint",
+          "rarity": "Uncommon",
+          "chance": 20,
+          "price": 4,
+          "priceKnown": true,
+          "weight": 0.06859354536320005
+        },
+        {
+          "_id": "9c3609c4af5b1b8ec3e802e140b1a803",
+          "itemName": "Aksomati Prime Blueprint",
+          "rarity": "Uncommon",
+          "chance": 16.67,
+          "price": 5,
+          "priceKnown": true,
+          "weight": 0.15928812552068666
+        },
+        {
+          "_id": "801b2fc45233f4a426db1ae4f6697548",
+          "itemName": "Protea Prime Systems Blueprint",
+          "rarity": "Uncommon",
+          "chance": 20,
+          "price": 6,
+          "priceKnown": true,
+          "weight": 0.4161544192008001
+        },
+        {
+          "_id": "7fa8859682c70c5cdbe90948b0eebc5c",
+          "itemName": "Ivara Prime Chassis Blueprint",
+          "rarity": "Uncommon",
+          "chance": 10,
+          "price": 13,
           "priceKnown": true,
           "weight": 0.3440084114004004
         }
