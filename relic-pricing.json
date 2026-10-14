@@ -1,8 +1,8 @@
 {
   "Lith B12": {
     "tier": "hourly",
-    "lastChecked": "2026-10-14T01:38:47.483Z",
-    "relicValue": 12.24,
+    "lastChecked": "2026-10-14T07:11:40.976Z",
+    "relicValue": 14.3,
     "items": [
       {
         "_id": "f1d3923651587359f9444f183330e4c2",
@@ -54,7 +54,7 @@
         "itemName": "Baza Prime Stock",
         "rarity": "Uncommon",
         "chance": 10,
-        "price": 20,
+        "price": 26,
         "priceKnown": true,
         "weight": 0.3440084114004004
       }
@@ -123,8 +123,8 @@
   },
   "Meso V16": {
     "tier": "daily",
-    "lastChecked": "2026-10-13T02:27:03.780Z",
-    "relicValue": 9.08,
+    "lastChecked": "2026-10-14T07:11:42.320Z",
+    "relicValue": 8.47,
     "items": [
       {
         "_id": "f1d3923651587359f9444f183330e4c2",
@@ -140,7 +140,7 @@
         "itemName": "Burston Prime Stock",
         "rarity": "Uncommon",
         "chance": 16.67,
-        "price": 2,
+        "price": 3,
         "priceKnown": true,
         "weight": 0.011583336111481504
       },
@@ -149,7 +149,7 @@
         "itemName": "Okina Prime Handle",
         "rarity": "Uncommon",
         "chance": 20,
-        "price": 5,
+        "price": 7,
         "priceKnown": true,
         "weight": 0.06859354536320005
       },
@@ -167,7 +167,7 @@
         "itemName": "Velox Prime Barrel",
         "rarity": "Uncommon",
         "chance": 10,
-        "price": 10,
+        "price": 9,
         "priceKnown": true,
         "weight": 0.1695676090004001
       },
@@ -176,7 +176,7 @@
         "itemName": "Ivara Prime Systems Blueprint",
         "rarity": "Uncommon",
         "chance": 20,
-        "price": 10,
+        "price": 9,
         "priceKnown": true,
         "weight": 0.5905952216008004
       }
@@ -245,8 +245,8 @@
   },
   "Neo O4": {
     "tier": "daily",
-    "lastChecked": "2026-10-13T02:27:05.477Z",
-    "relicValue": 7.92,
+    "lastChecked": "2026-10-14T07:11:43.704Z",
+    "relicValue": 9.63,
     "items": [
       {
         "_id": "f1d3923651587359f9444f183330e4c2",
@@ -271,7 +271,7 @@
         "itemName": "Protea Prime Blueprint",
         "rarity": "Uncommon",
         "chance": 16.67,
-        "price": 2,
+        "price": 4,
         "priceKnown": true,
         "weight": 0.06286722150428155
       },
@@ -280,7 +280,7 @@
         "itemName": "Baza Prime Barrel",
         "rarity": "Uncommon",
         "chance": 20,
-        "price": 5,
+        "price": 6,
         "priceKnown": true,
         "weight": 0.20836101416320005
       },
@@ -298,7 +298,7 @@
         "itemName": "Okina Prime Blueprint",
         "rarity": "Uncommon",
         "chance": 10,
-        "price": 11,
+        "price": 15,
         "priceKnown": true,
         "weight": 0.3440084114004004
       }
