@@ -1,8 +1,8 @@
 {
   "Lith B12": {
     "tier": "hourly",
-    "lastChecked": "2026-10-15T21:58:33.416Z",
-    "relicValue": 11.02,
+    "lastChecked": "2026-10-16T00:15:15.573Z",
+    "relicValue": 10.87,
     "items": [
       {
         "_id": "f1d3923651587359f9444f183330e4c2",
@@ -32,22 +32,22 @@
         "weight": 0.06859354536320005
       },
       {
+        "_id": "1f7ae63d533036df824ceb058bb96e0b",
+        "itemName": "Aksomati Prime Receiver",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 7,
+        "priceKnown": true,
+        "weight": 0.15928812552068666
+      },
+      {
         "_id": "5693ebd425aa46d291566f2c7a9a1b1c",
         "itemName": "Ivara Prime Blueprint",
         "rarity": "Uncommon",
         "chance": 20,
         "price": 8,
         "priceKnown": true,
-        "weight": 0.20836101416320005
-      },
-      {
-        "_id": "1f7ae63d533036df824ceb058bb96e0b",
-        "itemName": "Aksomati Prime Receiver",
-        "rarity": "Uncommon",
-        "chance": 16.67,
-        "price": 8,
-        "priceKnown": true,
-        "weight": 0.36708153055828674
+        "weight": 0.4161544192008001
       },
       {
         "_id": "24439f7c0373fbf66a087a3c19222624",
@@ -61,9 +61,9 @@
     ]
   },
   "Meso I3": {
-    "tier": "daily",
-    "lastChecked": "2026-10-14T22:05:12.892Z",
-    "relicValue": 9.65,
+    "tier": "hourly",
+    "lastChecked": "2026-10-16T00:15:16.603Z",
+    "relicValue": 10.02,
     "items": [
       {
         "_id": "f1d3923651587359f9444f183330e4c2",
@@ -79,18 +79,9 @@
         "itemName": "Burston Prime Blueprint",
         "rarity": "Uncommon",
         "chance": 16.67,
-        "price": 2,
+        "price": 3,
         "priceKnown": true,
         "weight": 0.011583336111481504
-      },
-      {
-        "_id": "232cc9e7d8ce7495964f069582d3e7fa",
-        "itemName": "Baza Prime Blueprint",
-        "rarity": "Uncommon",
-        "chance": 20,
-        "price": 5,
-        "priceKnown": true,
-        "weight": 0.06859354536320005
       },
       {
         "_id": "9c3609c4af5b1b8ec3e802e140b1a803",
@@ -99,7 +90,16 @@
         "chance": 16.67,
         "price": 5,
         "priceKnown": true,
-        "weight": 0.15928812552068666
+        "weight": 0.05019445648308649
+      },
+      {
+        "_id": "232cc9e7d8ce7495964f069582d3e7fa",
+        "itemName": "Baza Prime Blueprint",
+        "rarity": "Uncommon",
+        "chance": 20,
+        "price": 7,
+        "priceKnown": true,
+        "weight": 0.17768721440079993
       },
       {
         "_id": "801b2fc45233f4a426db1ae4f6697548",
@@ -108,7 +108,7 @@
         "chance": 20,
         "price": 8,
         "priceKnown": true,
-        "weight": 0.4161544192008001
+        "weight": 0.41615441920079976
       },
       {
         "_id": "7fa8859682c70c5cdbe90948b0eebc5c",
@@ -117,7 +117,7 @@
         "chance": 10,
         "price": 15,
         "priceKnown": true,
-        "weight": 0.3440084114004004
+        "weight": 0.34400841140040017
       }
     ]
   },
@@ -184,8 +184,8 @@
   },
   "Neo P11": {
     "tier": "hourly",
-    "lastChecked": "2026-10-15T21:58:34.610Z",
-    "relicValue": 11.59,
+    "lastChecked": "2026-10-16T00:15:17.510Z",
+    "relicValue": 11.34,
     "items": [
       {
         "_id": "f1d3923651587359f9444f183330e4c2",
@@ -210,7 +210,7 @@
         "itemName": "Braton Prime Receiver",
         "rarity": "Uncommon",
         "chance": 20,
-        "price": 4,
+        "price": 5,
         "priceKnown": true,
         "weight": 0.06859354536320005
       },
@@ -219,7 +219,7 @@
         "itemName": "Okina Prime Blade",
         "rarity": "Uncommon",
         "chance": 16.67,
-        "price": 8,
+        "price": 6,
         "priceKnown": true,
         "weight": 0.15928812552068666
       },
