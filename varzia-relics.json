@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-17T18:13:38.927Z",
+  "generatedAt": "2026-10-17T21:16:55.433Z",
   "relics": [
     {
       "relic": "Neo P11",
       "icon": "Images/Neo0.png",
-      "relicValue": 12.57,
+      "relicValue": 12.45,
       "items": [
         {
           "_id": "f1d3923651587359f9444f183330e4c2",
@@ -29,7 +29,7 @@
           "itemName": "Okina Prime Blade",
           "rarity": "Uncommon",
           "chance": 16.67,
-          "price": 6,
+          "price": 7,
           "priceKnown": true,
           "weight": 0.05019445648308649
         },
@@ -38,9 +38,18 @@
           "itemName": "Braton Prime Receiver",
           "rarity": "Uncommon",
           "chance": 20,
-          "price": 7,
+          "price": 8,
           "priceKnown": true,
           "weight": 0.17768721440079993
+        },
+        {
+          "_id": "1d80fbd45a3dd42feac01d99e14eeb09",
+          "itemName": "Protea Prime Chassis Blueprint",
+          "rarity": "Uncommon",
+          "chance": 10,
+          "price": 14,
+          "priceKnown": true,
+          "weight": 0.1695676090003999
         },
         {
           "_id": "28f918255c9a34bac08d7034bd93fafc",
@@ -49,23 +58,14 @@
           "chance": 20,
           "price": 14,
           "priceKnown": true,
-          "weight": 0.41615441920079976
-        },
-        {
-          "_id": "1d80fbd45a3dd42feac01d99e14eeb09",
-          "itemName": "Protea Prime Chassis Blueprint",
-          "rarity": "Uncommon",
-          "chance": 10,
-          "price": 15,
-          "priceKnown": true,
-          "weight": 0.34400841140040017
+          "weight": 0.5905952216008
         }
       ]
     },
     {
       "relic": "Lith B12",
       "icon": "Images/Lith0.png",
-      "relicValue": 11.71,
+      "relicValue": 11.37,
       "items": [
         {
           "_id": "f1d3923651587359f9444f183330e4c2",
@@ -117,7 +117,7 @@
           "itemName": "Baza Prime Stock",
           "rarity": "Uncommon",
           "chance": 10,
-          "price": 20,
+          "price": 19,
           "priceKnown": true,
           "weight": 0.3440084114004004
         }
