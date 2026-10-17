@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-17T11:26:06.177Z",
+  "generatedAt": "2026-10-17T15:06:23.120Z",
   "relics": [
     {
       "relic": "Lith B12",
       "icon": "Images/Lith0.png",
-      "relicValue": 12.09,
+      "relicValue": 11.72,
       "items": [
         {
           "_id": "f1d3923651587359f9444f183330e4c2",
@@ -47,7 +47,7 @@
           "itemName": "Aksomati Prime Receiver",
           "rarity": "Uncommon",
           "chance": 16.67,
-          "price": 9,
+          "price": 8,
           "priceKnown": true,
           "weight": 0.36708153055828674
         },
@@ -65,7 +65,7 @@
     {
       "relic": "Neo P11",
       "icon": "Images/Neo0.png",
-      "relicValue": 11.75,
+      "relicValue": 11.4,
       "items": [
         {
           "_id": "f1d3923651587359f9444f183330e4c2",
@@ -77,29 +77,29 @@
           "weight": 0.0007722224074321002
         },
         {
-          "_id": "2f6b636a17276cb64d25a298d91e4c8c",
-          "itemName": "Braton Prime Receiver",
-          "rarity": "Uncommon",
-          "chance": 20,
-          "price": 4,
-          "priceKnown": true,
-          "weight": 0.017309659970400005
-        },
-        {
           "_id": "98b23d357d7a99755cc011c34bb60482",
           "itemName": "Burston Prime Receiver",
           "rarity": "Uncommon",
           "chance": 16.67,
-          "price": 4,
+          "price": 2,
           "priceKnown": true,
-          "weight": 0.06286722150428155
+          "weight": 0.011583336111481504
+        },
+        {
+          "_id": "2f6b636a17276cb64d25a298d91e4c8c",
+          "itemName": "Braton Prime Receiver",
+          "rarity": "Uncommon",
+          "chance": 20,
+          "price": 7,
+          "priceKnown": true,
+          "weight": 0.06859354536320005
         },
         {
           "_id": "933310febadd3bc9c05b9ab6325833e8",
           "itemName": "Okina Prime Blade",
           "rarity": "Uncommon",
           "chance": 16.67,
-          "price": 8,
+          "price": 9,
           "priceKnown": true,
           "weight": 0.15928812552068666
         },
@@ -117,7 +117,7 @@
           "itemName": "Protea Prime Chassis Blueprint",
           "rarity": "Uncommon",
           "chance": 10,
-          "price": 15,
+          "price": 13,
           "priceKnown": true,
           "weight": 0.3440084114004004
         }
