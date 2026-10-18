@@ -1,8 +1,8 @@
 {
   "Lith B12": {
     "tier": "hourly",
-    "lastChecked": "2026-10-18T13:01:21.662Z",
-    "relicValue": 13.58,
+    "lastChecked": "2026-10-18T17:06:40.388Z",
+    "relicValue": 11.02,
     "items": [
       {
         "_id": "f1d3923651587359f9444f183330e4c2",
@@ -14,22 +14,22 @@
         "weight": 0.0007722224074321002
       },
       {
+        "_id": "27b3d3259c2f10457bd73f830ea67069",
+        "itemName": "Braton Prime Barrel",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 2,
+        "priceKnown": true,
+        "weight": 0.011583336111481504
+      },
+      {
         "_id": "dc5b9d05ce0d0336bbfb7b81326eb6b8",
         "itemName": "Velox Prime Blueprint",
         "rarity": "Uncommon",
         "chance": 20,
         "price": 3,
         "priceKnown": true,
-        "weight": 0.017309659970400005
-      },
-      {
-        "_id": "27b3d3259c2f10457bd73f830ea67069",
-        "itemName": "Braton Prime Barrel",
-        "rarity": "Uncommon",
-        "chance": 16.67,
-        "price": 3,
-        "priceKnown": true,
-        "weight": 0.06286722150428155
+        "weight": 0.06859354536320005
       },
       {
         "_id": "5693ebd425aa46d291566f2c7a9a1b1c",
@@ -45,7 +45,7 @@
         "itemName": "Aksomati Prime Receiver",
         "rarity": "Uncommon",
         "chance": 16.67,
-        "price": 14,
+        "price": 8,
         "priceKnown": true,
         "weight": 0.36708153055828674
       },
@@ -54,7 +54,7 @@
         "itemName": "Baza Prime Stock",
         "rarity": "Uncommon",
         "chance": 10,
-        "price": 19,
+        "price": 18,
         "priceKnown": true,
         "weight": 0.3440084114004004
       }
@@ -184,8 +184,8 @@
   },
   "Neo P11": {
     "tier": "hourly",
-    "lastChecked": "2026-10-18T13:01:24.458Z",
-    "relicValue": 11.05,
+    "lastChecked": "2026-10-18T17:06:42.930Z",
+    "relicValue": 11.15,
     "items": [
       {
         "_id": "f1d3923651587359f9444f183330e4c2",
@@ -219,7 +219,7 @@
         "itemName": "Okina Prime Blade",
         "rarity": "Uncommon",
         "chance": 16.67,
-        "price": 9,
+        "price": 7,
         "priceKnown": true,
         "weight": 0.15928812552068666
       },
@@ -228,7 +228,7 @@
         "itemName": "Aksomati Prime Barrel",
         "rarity": "Uncommon",
         "chance": 20,
-        "price": 11,
+        "price": 12,
         "priceKnown": true,
         "weight": 0.4161544192008001
       },
@@ -306,8 +306,8 @@
   },
   "Axi A23": {
     "tier": "hourly",
-    "lastChecked": "2026-10-18T13:01:25.700Z",
-    "relicValue": 10.09,
+    "lastChecked": "2026-10-18T17:06:45.219Z",
+    "relicValue": 10.84,
     "items": [
       {
         "_id": "f1d3923651587359f9444f183330e4c2",
@@ -332,7 +332,7 @@
         "itemName": "Protea Prime Neuroptics Blueprint",
         "rarity": "Uncommon",
         "chance": 20,
-        "price": 3,
+        "price": 4,
         "priceKnown": true,
         "weight": 0.06859354536320005
       },
@@ -359,7 +359,7 @@
         "itemName": "Aksomati Prime Link",
         "rarity": "Uncommon",
         "chance": 10,
-        "price": 22,
+        "price": 24,
         "priceKnown": true,
         "weight": 0.3440084114004004
       }
