@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-19T00:52:26.634Z",
+  "generatedAt": "2026-10-19T05:48:31.280Z",
   "relics": [
     {
       "relic": "Lith B12",
       "icon": "Images/Lith0.png",
-      "relicValue": 12.09,
+      "relicValue": 15.88,
       "items": [
         {
           "_id": "f1d3923651587359f9444f183330e4c2",
@@ -38,7 +38,7 @@
           "itemName": "Ivara Prime Blueprint",
           "rarity": "Uncommon",
           "chance": 20,
-          "price": 8,
+          "price": 9,
           "priceKnown": true,
           "weight": 0.20836101416320005
         },
@@ -47,7 +47,7 @@
           "itemName": "Aksomati Prime Receiver",
           "rarity": "Uncommon",
           "chance": 16.67,
-          "price": 9,
+          "price": 15,
           "priceKnown": true,
           "weight": 0.36708153055828674
         },
@@ -56,7 +56,7 @@
           "itemName": "Baza Prime Stock",
           "rarity": "Uncommon",
           "chance": 10,
-          "price": 20,
+          "price": 24,
           "priceKnown": true,
           "weight": 0.3440084114004004
         }
