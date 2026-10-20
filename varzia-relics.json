@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-19T23:22:51.192Z",
+  "generatedAt": "2026-10-20T03:47:07.442Z",
   "relics": [
     {
       "relic": "Neo P11",
       "icon": "Images/Neo0.png",
-      "relicValue": 14.01,
+      "relicValue": 12.65,
       "items": [
         {
           "_id": "f1d3923651587359f9444f183330e4c2",
@@ -20,7 +20,7 @@
           "itemName": "Burston Prime Receiver",
           "rarity": "Uncommon",
           "chance": 16.67,
-          "price": 3,
+          "price": 2,
           "priceKnown": true,
           "weight": 0.011583336111481504
         },
@@ -47,7 +47,7 @@
           "itemName": "Protea Prime Chassis Blueprint",
           "rarity": "Uncommon",
           "chance": 10,
-          "price": 15,
+          "price": 14,
           "priceKnown": true,
           "weight": 0.1695676090004001
         },
@@ -56,7 +56,7 @@
           "itemName": "Aksomati Prime Barrel",
           "rarity": "Uncommon",
           "chance": 20,
-          "price": 17,
+          "price": 15,
           "priceKnown": true,
           "weight": 0.5905952216008004
         }
@@ -65,7 +65,7 @@
     {
       "relic": "Lith B12",
       "icon": "Images/Lith0.png",
-      "relicValue": 12.99,
+      "relicValue": 11.75,
       "items": [
         {
           "_id": "f1d3923651587359f9444f183330e4c2",
@@ -99,7 +99,7 @@
           "itemName": "Ivara Prime Blueprint",
           "rarity": "Uncommon",
           "chance": 20,
-          "price": 9,
+          "price": 8,
           "priceKnown": true,
           "weight": 0.20836101416320005
         },
@@ -117,16 +117,138 @@
           "itemName": "Baza Prime Stock",
           "rarity": "Uncommon",
           "chance": 10,
-          "price": 22,
+          "price": 19,
           "priceKnown": true,
           "weight": 0.3440084114004004
         }
       ]
     },
     {
+      "relic": "Axi A23",
+      "icon": "Images/Axi0.png",
+      "relicValue": 10.59,
+      "items": [
+        {
+          "_id": "f1d3923651587359f9444f183330e4c2",
+          "itemName": "Forma Blueprint",
+          "rarity": "Uncommon",
+          "chance": 16.67,
+          "price": 0,
+          "priceKnown": false,
+          "weight": 0.0007722224074321002
+        },
+        {
+          "_id": "602d7efe24c7837696ea42c1ad294b98",
+          "itemName": "Protea Prime Neuroptics Blueprint",
+          "rarity": "Uncommon",
+          "chance": 20,
+          "price": 3,
+          "priceKnown": true,
+          "weight": 0.017309659970400005
+        },
+        {
+          "_id": "3e8719fda222b72b6f6fb71cb15c6e00",
+          "itemName": "Burston Prime Barrel",
+          "rarity": "Uncommon",
+          "chance": 20,
+          "price": 3,
+          "priceKnown": true,
+          "weight": 0.08505472717039998
+        },
+        {
+          "_id": "5b00ba6ba06a134d04e418354800fdd5",
+          "itemName": "Burston Prime Stock",
+          "rarity": "Uncommon",
+          "chance": 16.67,
+          "price": 3,
+          "priceKnown": true,
+          "weight": 0.1861735084970816
+        },
+        {
+          "_id": "dbb7a638a0459f54038db09cd50e08dd",
+          "itemName": "Velox Prime Receiver",
+          "rarity": "Uncommon",
+          "chance": 16.67,
+          "price": 4,
+          "priceKnown": true,
+          "weight": 0.36708153055828674
+        },
+        {
+          "_id": "c5d02f6d5af57ba8970cc06dab587b3a",
+          "itemName": "Aksomati Prime Link",
+          "rarity": "Uncommon",
+          "chance": 10,
+          "price": 24,
+          "priceKnown": true,
+          "weight": 0.3440084114004004
+        }
+      ]
+    },
+    {
+      "relic": "Meso V16",
+      "icon": "Images/Meso0.png",
+      "relicValue": 9.57,
+      "items": [
+        {
+          "_id": "f1d3923651587359f9444f183330e4c2",
+          "itemName": "Forma Blueprint",
+          "rarity": "Uncommon",
+          "chance": 16.67,
+          "price": 0,
+          "priceKnown": false,
+          "weight": 0.0007722224074321002
+        },
+        {
+          "_id": "5b00ba6ba06a134d04e418354800fdd5",
+          "itemName": "Burston Prime Stock",
+          "rarity": "Uncommon",
+          "chance": 16.67,
+          "price": 3,
+          "priceKnown": true,
+          "weight": 0.011583336111481504
+        },
+        {
+          "_id": "41af7a2c880710466e88bf99391d28a5",
+          "itemName": "Okina Prime Handle",
+          "rarity": "Uncommon",
+          "chance": 20,
+          "price": 8,
+          "priceKnown": true,
+          "weight": 0.06859354536320005
+        },
+        {
+          "_id": "8281d6c1c64a8b2da5fbae64a383a835",
+          "itemName": "Ivara Prime Systems Blueprint",
+          "rarity": "Uncommon",
+          "chance": 20,
+          "price": 9,
+          "priceKnown": true,
+          "weight": 0.20836101416320005
+        },
+        {
+          "_id": "90faa89c88aa2fcbcfb2e4b01a71ce55",
+          "itemName": "Velox Prime Barrel",
+          "rarity": "Uncommon",
+          "chance": 10,
+          "price": 10,
+          "priceKnown": true,
+          "weight": 0.19309730788159996
+        },
+        {
+          "_id": "e6b88651eb4e74d95ba2469b870d9f1a",
+          "itemName": "Baza Prime Receiver",
+          "rarity": "Uncommon",
+          "chance": 16.67,
+          "price": 10,
+          "priceKnown": true,
+          "weight": 0.5179926340770863
+        }
+      ]
+    },
+    {
       "relic": "Neo O4",
       "icon": "Images/Neo0.png",
-      "relicValue": 11.62,
+      "relicValue": 9.15,
       "items": [
         {
           "_id": "f1d3923651587359f9444f183330e4c2",
@@ -151,7 +273,7 @@
           "itemName": "Protea Prime Blueprint",
           "rarity": "Uncommon",
           "chance": 16.67,
-          "price": 5,
+          "price": 4,
           "priceKnown": true,
           "weight": 0.06286722150428155
         },
@@ -178,129 +300,7 @@
           "itemName": "Okina Prime Blueprint",
           "rarity": "Uncommon",
           "chance": 10,
-          "price": 20,
-          "priceKnown": true,
-          "weight": 0.3440084114004004
-        }
-      ]
-    },
-    {
-      "relic": "Axi A23",
-      "icon": "Images/Axi0.png",
-      "relicValue": 10.74,
-      "items": [
-        {
-          "_id": "f1d3923651587359f9444f183330e4c2",
-          "itemName": "Forma Blueprint",
-          "rarity": "Uncommon",
-          "chance": 16.67,
-          "price": 0,
-          "priceKnown": false,
-          "weight": 0.0007722224074321002
-        },
-        {
-          "_id": "3e8719fda222b72b6f6fb71cb15c6e00",
-          "itemName": "Burston Prime Barrel",
-          "rarity": "Uncommon",
-          "chance": 20,
-          "price": 2,
-          "priceKnown": true,
-          "weight": 0.017309659970400005
-        },
-        {
-          "_id": "5b00ba6ba06a134d04e418354800fdd5",
-          "itemName": "Burston Prime Stock",
-          "rarity": "Uncommon",
-          "chance": 16.67,
-          "price": 2,
-          "priceKnown": true,
-          "weight": 0.06286722150428155
-        },
-        {
-          "_id": "602d7efe24c7837696ea42c1ad294b98",
-          "itemName": "Protea Prime Neuroptics Blueprint",
-          "rarity": "Uncommon",
-          "chance": 20,
-          "price": 4,
-          "priceKnown": true,
-          "weight": 0.20836101416320005
-        },
-        {
-          "_id": "dbb7a638a0459f54038db09cd50e08dd",
-          "itemName": "Velox Prime Receiver",
-          "rarity": "Uncommon",
-          "chance": 16.67,
-          "price": 5,
-          "priceKnown": true,
-          "weight": 0.36708153055828674
-        },
-        {
-          "_id": "c5d02f6d5af57ba8970cc06dab587b3a",
-          "itemName": "Aksomati Prime Link",
-          "rarity": "Uncommon",
-          "chance": 10,
-          "price": 23,
-          "priceKnown": true,
-          "weight": 0.3440084114004004
-        }
-      ]
-    },
-    {
-      "relic": "Meso V16",
-      "icon": "Images/Meso0.png",
-      "relicValue": 10.55,
-      "items": [
-        {
-          "_id": "f1d3923651587359f9444f183330e4c2",
-          "itemName": "Forma Blueprint",
-          "rarity": "Uncommon",
-          "chance": 16.67,
-          "price": 0,
-          "priceKnown": false,
-          "weight": 0.0007722224074321002
-        },
-        {
-          "_id": "5b00ba6ba06a134d04e418354800fdd5",
-          "itemName": "Burston Prime Stock",
-          "rarity": "Uncommon",
-          "chance": 16.67,
-          "price": 2,
-          "priceKnown": true,
-          "weight": 0.011583336111481504
-        },
-        {
-          "_id": "41af7a2c880710466e88bf99391d28a5",
-          "itemName": "Okina Prime Handle",
-          "rarity": "Uncommon",
-          "chance": 20,
-          "price": 8,
-          "priceKnown": true,
-          "weight": 0.06859354536320005
-        },
-        {
-          "_id": "e6b88651eb4e74d95ba2469b870d9f1a",
-          "itemName": "Baza Prime Receiver",
-          "rarity": "Uncommon",
-          "chance": 16.67,
-          "price": 8,
-          "priceKnown": true,
-          "weight": 0.15928812552068666
-        },
-        {
-          "_id": "8281d6c1c64a8b2da5fbae64a383a835",
-          "itemName": "Ivara Prime Systems Blueprint",
-          "rarity": "Uncommon",
-          "chance": 20,
-          "price": 11,
-          "priceKnown": true,
-          "weight": 0.4161544192008001
-        },
-        {
-          "_id": "90faa89c88aa2fcbcfb2e4b01a71ce55",
-          "itemName": "Velox Prime Barrel",
-          "rarity": "Uncommon",
-          "chance": 10,
-          "price": 12,
+          "price": 13,
           "priceKnown": true,
           "weight": 0.3440084114004004
         }
