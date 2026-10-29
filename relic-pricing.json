@@ -1035,5 +1035,371 @@
         "weight": 0.5179926340770868
       }
     ]
+  },
+  "Lith S17": {
+    "tier": "weekly",
+    "lastChecked": "2026-10-29T21:35:05.854Z",
+    "relicValue": 0,
+    "items": [
+      {
+        "_id": "45e92e6e6a831e6e9e547b20e72b2a86",
+        "itemName": "Saryn Prime Chassis Blueprint",
+        "rarity": "Uncommon",
+        "chance": 10,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.00010000000000000002
+      },
+      {
+        "_id": "2ab6b2cef60e8f5646963d39e7976bdd",
+        "itemName": "Nidus Prime Blueprint",
+        "rarity": "Uncommon",
+        "chance": 20,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.008000000000000005
+      },
+      {
+        "_id": "74a6140f2c1bb7ec7ca14c64e5e3eef5",
+        "itemName": "Braton Prime Blueprint",
+        "rarity": "Uncommon",
+        "chance": 20,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.0544
+      },
+      {
+        "_id": "95617b0bad012dbf724acb7c7ea2fd79",
+        "itemName": "Spira Prime Blueprint",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.1350703733334322
+      },
+      {
+        "_id": "9d8e76b94105f92d4bfedb4bc15e14fc",
+        "itemName": "Paris Prime Lower Limb",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.28483705259348174
+      },
+      {
+        "_id": "f1d3923651587359f9444f183330e4c2",
+        "itemName": "Forma Blueprint",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.5179926340770868
+      }
+    ]
+  },
+  "Meso M5": {
+    "tier": "weekly",
+    "lastChecked": "2026-10-29T21:35:06.388Z",
+    "relicValue": 0,
+    "items": [
+      {
+        "_id": "2556365165b5aba16be2b732dc0aca47",
+        "itemName": "Magnus Prime Barrel",
+        "rarity": "Uncommon",
+        "chance": 10,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.00010000000000000002
+      },
+      {
+        "_id": "a1a7d024fc0b0bded3e44f00aaecc1b5",
+        "itemName": "Spira Prime Blade",
+        "rarity": "Uncommon",
+        "chance": 20,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.008000000000000005
+      },
+      {
+        "_id": "4a6b3d06b71a191c212538c0a2c151ac",
+        "itemName": "Strun Prime Stock",
+        "rarity": "Uncommon",
+        "chance": 20,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.0544
+      },
+      {
+        "_id": "26fb0c932dfa23eb1059896e08b143ce",
+        "itemName": "Saryn Prime Systems Blueprint",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.1350703733334322
+      },
+      {
+        "_id": "c534d3c6c7c29b9891620a6411234912",
+        "itemName": "Braton Prime Stock",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.28483705259348174
+      },
+      {
+        "_id": "f1d3923651587359f9444f183330e4c2",
+        "itemName": "Forma Blueprint",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.5179926340770868
+      }
+    ]
+  },
+  "Meso S15": {
+    "tier": "weekly",
+    "lastChecked": "2026-10-29T21:35:06.930Z",
+    "relicValue": 0,
+    "items": [
+      {
+        "_id": "3cc7c5b48bbc07601269d0dbab8b3d70",
+        "itemName": "Spira Prime Pouch",
+        "rarity": "Uncommon",
+        "chance": 10,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.00010000000000000002
+      },
+      {
+        "_id": "8d9c2c7980ffad792fbe0cb027317dfa",
+        "itemName": "Nikana Prime Blade",
+        "rarity": "Uncommon",
+        "chance": 20,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.008000000000000005
+      },
+      {
+        "_id": "6b65b2d83a1cdc91c169e5c3949fb1f5",
+        "itemName": "Paris Prime Grip",
+        "rarity": "Uncommon",
+        "chance": 20,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.0544
+      },
+      {
+        "_id": "48e56d14baa21d7e6f9c3c7f89ecebf6",
+        "itemName": "Magnus Prime Blueprint",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.1350703733334322
+      },
+      {
+        "_id": "27b3d3259c2f10457bd73f830ea67069",
+        "itemName": "Braton Prime Barrel",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.28483705259348174
+      },
+      {
+        "_id": "f1d3923651587359f9444f183330e4c2",
+        "itemName": "Forma Blueprint",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.5179926340770868
+      }
+    ]
+  },
+  "Neo N19": {
+    "tier": "weekly",
+    "lastChecked": "2026-10-29T21:35:07.459Z",
+    "relicValue": 0,
+    "items": [
+      {
+        "_id": "9f7bd0f5f79b761913d8d1f7c0a4e6ce",
+        "itemName": "Nikana Prime Hilt",
+        "rarity": "Uncommon",
+        "chance": 10,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.00010000000000000002
+      },
+      {
+        "_id": "d33f17d6ce129c1b4043a37bfd523f25",
+        "itemName": "Magnus Prime Receiver",
+        "rarity": "Uncommon",
+        "chance": 20,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.008000000000000005
+      },
+      {
+        "_id": "5c6b1c9bf2fef923fdadfa0b395529df",
+        "itemName": "Paris Prime Upper Limb",
+        "rarity": "Uncommon",
+        "chance": 20,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.0544
+      },
+      {
+        "_id": "90c8e6d8e9dc3037f0091c62d37d3817",
+        "itemName": "Nidus Prime Systems Blueprint",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.1350703733334322
+      },
+      {
+        "_id": "2f6b636a17276cb64d25a298d91e4c8c",
+        "itemName": "Braton Prime Receiver",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.28483705259348174
+      },
+      {
+        "_id": "f1d3923651587359f9444f183330e4c2",
+        "itemName": "Forma Blueprint",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.5179926340770868
+      }
+    ]
+  },
+  "Neo S19": {
+    "tier": "weekly",
+    "lastChecked": "2026-10-29T21:35:08.034Z",
+    "relicValue": 0,
+    "items": [
+      {
+        "_id": "50bd5076579f5315d98bdfbd27a70d4a",
+        "itemName": "Strun Prime Blueprint",
+        "rarity": "Uncommon",
+        "chance": 10,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.00010000000000000002
+      },
+      {
+        "_id": "9d200f4c197fdc442c8128093e2b759c",
+        "itemName": "Saryn Prime Neuroptics Blueprint",
+        "rarity": "Uncommon",
+        "chance": 20,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.008000000000000005
+      },
+      {
+        "_id": "55ace1f38f0ab88842ffb32dc60b17c0",
+        "itemName": "Nidus Prime Neuroptics Blueprint",
+        "rarity": "Uncommon",
+        "chance": 20,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.0544
+      },
+      {
+        "_id": "1d9e06d442ccc5f6e924f86bf79014be",
+        "itemName": "Strun Prime Receiver",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.1350703733334322
+      },
+      {
+        "_id": "fa5971ba347995f7ffb5ad78a07107ca",
+        "itemName": "Paris Prime Blueprint",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.28483705259348174
+      },
+      {
+        "_id": "f1d3923651587359f9444f183330e4c2",
+        "itemName": "Forma Blueprint",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.5179926340770868
+      }
+    ]
+  },
+  "Axi N12": {
+    "tier": "weekly",
+    "lastChecked": "2026-10-29T21:35:08.542Z",
+    "relicValue": 0,
+    "items": [
+      {
+        "_id": "c2b0df3161c7919eaa8be98c4b63c5db",
+        "itemName": "Nidus Prime Chassis Blueprint",
+        "rarity": "Uncommon",
+        "chance": 10,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.00010000000000000002
+      },
+      {
+        "_id": "b097c4b6bdf3518dab72056cf86bb674",
+        "itemName": "Saryn Prime Blueprint",
+        "rarity": "Uncommon",
+        "chance": 20,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.008000000000000005
+      },
+      {
+        "_id": "bcbe8206f673becd3f92cb3eb7405559",
+        "itemName": "Strun Prime Barrel",
+        "rarity": "Uncommon",
+        "chance": 20,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.0544
+      },
+      {
+        "_id": "91a0180400d23eae4a8f6e4d1dbfb1d6",
+        "itemName": "Nikana Prime Blueprint",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.1350703733334322
+      },
+      {
+        "_id": "57bdb1307f16a7e25b08b2efc9c3ad2e",
+        "itemName": "Paris Prime String",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.28483705259348174
+      },
+      {
+        "_id": "f1d3923651587359f9444f183330e4c2",
+        "itemName": "Forma Blueprint",
+        "rarity": "Uncommon",
+        "chance": 16.67,
+        "price": 0,
+        "priceKnown": false,
+        "weight": 0.5179926340770868
+      }
+    ]
   }
 }
