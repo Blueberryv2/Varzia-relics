@@ -2,13 +2,13 @@
   "varzia": {
     "inventoryCheck": {
       "tier": "hourly",
-      "lastChecked": "2026-11-15T05:13:12.240Z"
+      "lastChecked": "2026-11-15T13:33:41.534Z"
     }
   },
   "newest": {
     "inventoryCheck": {
       "tier": "weekly",
-      "lastChecked": "2026-11-08T11:44:45.152Z"
+      "lastChecked": "2026-11-15T13:33:45.475Z"
     }
   }
 }
