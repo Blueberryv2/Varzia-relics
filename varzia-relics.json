@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-26T14:47:13.012Z",
+  "generatedAt": "2026-11-26T23:31:35.842Z",
   "relics": [
     {
-      "relic": "Lith S17",
+      "relic": "Lith S20",
       "icon": "Images/Lith0.png",
       "relicValue": 0,
       "items": [
         {
-          "_id": "45e92e6e6a831e6e9e547b20e72b2a86",
-          "itemName": "Saryn Prime Chassis Blueprint",
+          "_id": "4d587bb8aed0d3c3e6bb44b2386d6cda",
+          "itemName": "Sevagoth Prime Chassis Blueprint",
           "rarity": "Uncommon",
           "chance": 10,
           "price": 0,
@@ -16,8 +16,8 @@
           "weight": 0.00010000000000000002
         },
         {
-          "_id": "2ab6b2cef60e8f5646963d39e7976bdd",
-          "itemName": "Nidus Prime Blueprint",
+          "_id": "4f7942de7dab397105550673a17e47ad",
+          "itemName": "Sevagoth Prime Blueprint",
           "rarity": "Uncommon",
           "chance": 20,
           "price": 0,
@@ -25,8 +25,8 @@
           "weight": 0.008000000000000005
         },
         {
-          "_id": "74a6140f2c1bb7ec7ca14c64e5e3eef5",
-          "itemName": "Braton Prime Blueprint",
+          "_id": "5c064b27e5cfcab97f84102a4d0c9845",
+          "itemName": "Epitaph Prime Barrel",
           "rarity": "Uncommon",
           "chance": 20,
           "price": 0,
@@ -34,8 +34,8 @@
           "weight": 0.0544
         },
         {
-          "_id": "95617b0bad012dbf724acb7c7ea2fd79",
-          "itemName": "Spira Prime Blueprint",
+          "_id": "e9949b0906406f1dd760fb90e4b720fd",
+          "itemName": "Ballistica Prime Lower Limb",
           "rarity": "Uncommon",
           "chance": 16.67,
           "price": 0,
@@ -43,8 +43,8 @@
           "weight": 0.1350703733334322
         },
         {
-          "_id": "9d8e76b94105f92d4bfedb4bc15e14fc",
-          "itemName": "Paris Prime Lower Limb",
+          "_id": "48fe1f6902db4e025280c5481068ae49",
+          "itemName": "Bronco Prime Receiver",
           "rarity": "Uncommon",
           "chance": 16.67,
           "price": 0,
@@ -63,13 +63,13 @@
       ]
     },
     {
-      "relic": "Meso M5",
+      "relic": "Meso E8",
       "icon": "Images/Meso0.png",
       "relicValue": 0,
       "items": [
         {
-          "_id": "2556365165b5aba16be2b732dc0aca47",
-          "itemName": "Magnus Prime Barrel",
+          "_id": "29af92dc30b60bed8828132518c6759c",
+          "itemName": "Epitaph Prime Receiver",
           "rarity": "Uncommon",
           "chance": 10,
           "price": 0,
@@ -77,8 +77,8 @@
           "weight": 0.00010000000000000002
         },
         {
-          "_id": "a1a7d024fc0b0bded3e44f00aaecc1b5",
-          "itemName": "Spira Prime Blade",
+          "_id": "ed71bdbbdba94629db88738a7d373205",
+          "itemName": "Nautilus Prime Systems",
           "rarity": "Uncommon",
           "chance": 20,
           "price": 0,
@@ -86,8 +86,8 @@
           "weight": 0.008000000000000005
         },
         {
-          "_id": "4a6b3d06b71a191c212538c0a2c151ac",
-          "itemName": "Strun Prime Stock",
+          "_id": "e1fcdb331d74cafc5d155562faebf0d4",
+          "itemName": "Hydroid Prime Blueprint",
           "rarity": "Uncommon",
           "chance": 20,
           "price": 0,
@@ -95,8 +95,8 @@
           "weight": 0.0544
         },
         {
-          "_id": "26fb0c932dfa23eb1059896e08b143ce",
-          "itemName": "Saryn Prime Systems Blueprint",
+          "_id": "5265cb9d99210be9049bcbcacdb77561",
+          "itemName": "Sevagoth Prime Neuroptics Blueprint",
           "rarity": "Uncommon",
           "chance": 16.67,
           "price": 0,
@@ -104,8 +104,8 @@
           "weight": 0.1350703733334322
         },
         {
-          "_id": "c534d3c6c7c29b9891620a6411234912",
-          "itemName": "Braton Prime Stock",
+          "_id": "6d838b70f3e5e4c60b7c567177a7c18e",
+          "itemName": "Nami Skyla Prime Blueprint",
           "rarity": "Uncommon",
           "chance": 16.67,
           "price": 0,
@@ -124,74 +124,13 @@
       ]
     },
     {
-      "relic": "Meso S15",
-      "icon": "Images/Meso0.png",
-      "relicValue": 0,
-      "items": [
-        {
-          "_id": "3cc7c5b48bbc07601269d0dbab8b3d70",
-          "itemName": "Spira Prime Pouch",
-          "rarity": "Uncommon",
-          "chance": 10,
-          "price": 0,
-          "priceKnown": false,
-          "weight": 0.00010000000000000002
-        },
-        {
-          "_id": "8d9c2c7980ffad792fbe0cb027317dfa",
-          "itemName": "Nikana Prime Blade",
-          "rarity": "Uncommon",
-          "chance": 20,
-          "price": 0,
-          "priceKnown": false,
-          "weight": 0.008000000000000005
-        },
-        {
-          "_id": "6b65b2d83a1cdc91c169e5c3949fb1f5",
-          "itemName": "Paris Prime Grip",
-          "rarity": "Uncommon",
-          "chance": 20,
-          "price": 0,
-          "priceKnown": false,
-          "weight": 0.0544
-        },
-        {
-          "_id": "48e56d14baa21d7e6f9c3c7f89ecebf6",
-          "itemName": "Magnus Prime Blueprint",
-          "rarity": "Uncommon",
-          "chance": 16.67,
-          "price": 0,
-          "priceKnown": false,
-          "weight": 0.1350703733334322
-        },
-        {
-          "_id": "27b3d3259c2f10457bd73f830ea67069",
-          "itemName": "Braton Prime Barrel",
-          "rarity": "Uncommon",
-          "chance": 16.67,
-          "price": 0,
-          "priceKnown": false,
-          "weight": 0.28483705259348174
-        },
-        {
-          "_id": "f1d3923651587359f9444f183330e4c2",
-          "itemName": "Forma Blueprint",
-          "rarity": "Uncommon",
-          "chance": 16.67,
-          "price": 0,
-          "priceKnown": false,
-          "weight": 0.5179926340770868
-        }
-      ]
-    },
-    {
-      "relic": "Neo N19",
+      "relic": "Neo H5",
       "icon": "Images/Neo0.png",
       "relicValue": 0,
       "items": [
         {
-          "_id": "9f7bd0f5f79b761913d8d1f7c0a4e6ce",
-          "itemName": "Nikana Prime Hilt",
+          "_id": "0774b13c7003ec8cd8efbc1691f65df7",
+          "itemName": "Hydroid Prime Systems Blueprint",
           "rarity": "Uncommon",
           "chance": 10,
           "price": 0,
@@ -199,8 +138,8 @@
           "weight": 0.00010000000000000002
         },
         {
-          "_id": "d33f17d6ce129c1b4043a37bfd523f25",
-          "itemName": "Magnus Prime Receiver",
+          "_id": "9a3fc054aaa3d6af0a3bedd7bfa2fca8",
+          "itemName": "Ballistica Prime String",
           "rarity": "Uncommon",
           "chance": 20,
           "price": 0,
@@ -208,8 +147,8 @@
           "weight": 0.008000000000000005
         },
         {
-          "_id": "5c6b1c9bf2fef923fdadfa0b395529df",
-          "itemName": "Paris Prime Upper Limb",
+          "_id": "2f0112dbba02975241218b20bbaaa2d7",
+          "itemName": "Ballistica Prime Upper Limb",
           "rarity": "Uncommon",
           "chance": 20,
           "price": 0,
@@ -217,8 +156,8 @@
           "weight": 0.0544
         },
         {
-          "_id": "90c8e6d8e9dc3037f0091c62d37d3817",
-          "itemName": "Nidus Prime Systems Blueprint",
+          "_id": "84bcd46a0c49f88c56ef8272c867e311",
+          "itemName": "Epitaph Prime Blueprint",
           "rarity": "Uncommon",
           "chance": 16.67,
           "price": 0,
@@ -226,8 +165,8 @@
           "weight": 0.1350703733334322
         },
         {
-          "_id": "2f6b636a17276cb64d25a298d91e4c8c",
-          "itemName": "Braton Prime Receiver",
+          "_id": "98b23d357d7a99755cc011c34bb60482",
+          "itemName": "Burston Prime Receiver",
           "rarity": "Uncommon",
           "chance": 16.67,
           "price": 0,
@@ -246,13 +185,13 @@
       ]
     },
     {
-      "relic": "Neo S19",
+      "relic": "Neo N25",
       "icon": "Images/Neo0.png",
       "relicValue": 0,
       "items": [
         {
-          "_id": "50bd5076579f5315d98bdfbd27a70d4a",
-          "itemName": "Strun Prime Blueprint",
+          "_id": "8a88f45765ff03c4144f210818df3054",
+          "itemName": "Nautilus Prime Blueprint",
           "rarity": "Uncommon",
           "chance": 10,
           "price": 0,
@@ -260,8 +199,8 @@
           "weight": 0.00010000000000000002
         },
         {
-          "_id": "9d200f4c197fdc442c8128093e2b759c",
-          "itemName": "Saryn Prime Neuroptics Blueprint",
+          "_id": "dc99d42f71072b73f8cc5fb6969480bf",
+          "itemName": "Hydroid Prime Neuroptics Blueprint",
           "rarity": "Uncommon",
           "chance": 20,
           "price": 0,
@@ -269,8 +208,8 @@
           "weight": 0.008000000000000005
         },
         {
-          "_id": "55ace1f38f0ab88842ffb32dc60b17c0",
-          "itemName": "Nidus Prime Neuroptics Blueprint",
+          "_id": "3637298471fbed35f0e824720c29b1e3",
+          "itemName": "Ballistica Prime Receiver",
           "rarity": "Uncommon",
           "chance": 20,
           "price": 0,
@@ -278,8 +217,8 @@
           "weight": 0.0544
         },
         {
-          "_id": "1d9e06d442ccc5f6e924f86bf79014be",
-          "itemName": "Strun Prime Receiver",
+          "_id": "c37f0defae43080e89844cc056a9fb3b",
+          "itemName": "Sevagoth Prime Systems Blueprint",
           "rarity": "Uncommon",
           "chance": 16.67,
           "price": 0,
@@ -287,8 +226,8 @@
           "weight": 0.1350703733334322
         },
         {
-          "_id": "fa5971ba347995f7ffb5ad78a07107ca",
-          "itemName": "Paris Prime Blueprint",
+          "_id": "e61312444582286971e7fa69d81c474f",
+          "itemName": "Burston Prime Blueprint",
           "rarity": "Uncommon",
           "chance": 16.67,
           "price": 0,
@@ -307,13 +246,13 @@
       ]
     },
     {
-      "relic": "Axi N12",
+      "relic": "Axi B10",
       "icon": "Images/Axi0.png",
       "relicValue": 0,
       "items": [
         {
-          "_id": "c2b0df3161c7919eaa8be98c4b63c5db",
-          "itemName": "Nidus Prime Chassis Blueprint",
+          "_id": "02dd47bb7964ec8873e87d8771f844c1",
+          "itemName": "Ballistica Prime Blueprint",
           "rarity": "Uncommon",
           "chance": 10,
           "price": 0,
@@ -321,8 +260,8 @@
           "weight": 0.00010000000000000002
         },
         {
-          "_id": "b097c4b6bdf3518dab72056cf86bb674",
-          "itemName": "Saryn Prime Blueprint",
+          "_id": "52343ac036efb3afedd9d379bc652483",
+          "itemName": "Nami Skyla Prime Handle",
           "rarity": "Uncommon",
           "chance": 20,
           "price": 0,
@@ -330,8 +269,8 @@
           "weight": 0.008000000000000005
         },
         {
-          "_id": "bcbe8206f673becd3f92cb3eb7405559",
-          "itemName": "Strun Prime Barrel",
+          "_id": "3e8719fda222b72b6f6fb71cb15c6e00",
+          "itemName": "Burston Prime Barrel",
           "rarity": "Uncommon",
           "chance": 20,
           "price": 0,
@@ -339,8 +278,8 @@
           "weight": 0.0544
         },
         {
-          "_id": "91a0180400d23eae4a8f6e4d1dbfb1d6",
-          "itemName": "Nikana Prime Blueprint",
+          "_id": "d01aa18901f4bc4fec0eaab2fce908cf",
+          "itemName": "Nautilus Prime Carapace",
           "rarity": "Uncommon",
           "chance": 16.67,
           "price": 0,
@@ -348,8 +287,69 @@
           "weight": 0.1350703733334322
         },
         {
-          "_id": "57bdb1307f16a7e25b08b2efc9c3ad2e",
-          "itemName": "Paris Prime String",
+          "_id": "5b00ba6ba06a134d04e418354800fdd5",
+          "itemName": "Burston Prime Stock",
+          "rarity": "Uncommon",
+          "chance": 16.67,
+          "price": 0,
+          "priceKnown": false,
+          "weight": 0.28483705259348174
+        },
+        {
+          "_id": "f1d3923651587359f9444f183330e4c2",
+          "itemName": "Forma Blueprint",
+          "rarity": "Uncommon",
+          "chance": 16.67,
+          "price": 0,
+          "priceKnown": false,
+          "weight": 0.5179926340770868
+        }
+      ]
+    },
+    {
+      "relic": "Axi N14",
+      "icon": "Images/Axi0.png",
+      "relicValue": 0,
+      "items": [
+        {
+          "_id": "0737b580b945a5a8895ca665ec02087d",
+          "itemName": "Nautilus Prime Cerebrum",
+          "rarity": "Uncommon",
+          "chance": 10,
+          "price": 0,
+          "priceKnown": false,
+          "weight": 0.00010000000000000002
+        },
+        {
+          "_id": "0f7bca66aa179cf3d3d756cca4324fff",
+          "itemName": "Nami Skyla Prime Blade",
+          "rarity": "Uncommon",
+          "chance": 20,
+          "price": 0,
+          "priceKnown": false,
+          "weight": 0.008000000000000005
+        },
+        {
+          "_id": "3535d5eed7720f117b9dee5baaa53af1",
+          "itemName": "Bronco Prime Barrel",
+          "rarity": "Uncommon",
+          "chance": 20,
+          "price": 0,
+          "priceKnown": false,
+          "weight": 0.0544
+        },
+        {
+          "_id": "7435c511839a672c70172038735130fa",
+          "itemName": "Hydroid Prime Chassis Blueprint",
+          "rarity": "Uncommon",
+          "chance": 16.67,
+          "price": 0,
+          "priceKnown": false,
+          "weight": 0.1350703733334322
+        },
+        {
+          "_id": "c02f4f2d913f96493c8518cdf7248219",
+          "itemName": "Bronco Prime Blueprint",
           "rarity": "Uncommon",
           "chance": 16.67,
           "price": 0,
